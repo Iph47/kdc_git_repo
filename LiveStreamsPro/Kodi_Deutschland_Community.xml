@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+
+<item>
+<title>[B][COLOR red] Daily Updated [/B][/COLOR][B][COLOR antiquewhite] KODI DEUTSCHLAND COMMUNITY [/B][/COLOR][B][COLOR red] TV Script [/B][/COLOR]<title>
+<thumbnail>https://kdc-forum.de.cool/styles/Carbon/theme/images/carbon-logo.jpg</thumbnail>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+
+ 
+<link>$doregex[leg2]</link>
+
+<regex>
+<name>leg2</name>
+<listrepeat><![CDATA[
+<title>[leg2.param2]</title>
+<thumbnail>http://i.imgur.com/GAbvzTU.pn</thumbnail>
+<fanart>http://i.imgur.com/GAbvzTU.pn</fanart>
+
+<link>$doregex[leg]</link>
+]]></listrepeat>
+<expres><![CDATA[taxonomy.+?href="(.+?)">(.+?)<]]></expres>
+<page>https://dailyiptvlist.com</page>
+</regex>
+
+
+
+<regex>
+<name>leg</name>
+<listrepeat><![CDATA[
+<title>[leg.param2]</title>
+<link>$doregex[list]</link>
+<thumbnail>http://i.imgur.com/GAbvzTU.pn</thumbnail>
+<fanart>http://i.imgur.com/GAbvzTU.pn</fanart>
+
+]]></listrepeat>
+<expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
+<page>[leg2.param1]</page>
+</regex>
+
+
+
+
+<regex>
+<name>list</name>
+<listrepeat><![CDATA[
+<title>[list.param2]</title>
+<thumbnail>http://i.imgur.com/GAbvzTU.pg</thumbnail>
+<fanart>http://i.imgur.com/GAbvzTU.pn</fanart>
+
+<link>NA</link>
+<externallink>[list.param1]$$TSDOWNLOADER$$</externallink>
+]]></listrepeat>
+<expres><![CDATA[<a href="(.*?)">Download(.*?)</a>]]></expres>
+<page>http[leg.param1]</page>
+<thumbnail>http://i.imgur.com/QS3c3hk.pg</thumbnail>
+<fanart>http://i.imgur.com/zGAi8bi.pg</fanart>
+</regex>
+<fanart>http://i.imgur.com/GAbvzTU.pg</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+</item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] GHOST-Portal [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>http://ghost-repo.de/Ghost_Portal/Ghost_TV.txt</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+
+
+<item>
+<title>[B][COLOR antiquewhite] Ghost IPTV Liste [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>http://ghost-repo.de/Ghost_Portal/sky/ghostsiptv.txt</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+
+
+<item>
+<title>[B][COLOR antiquewhite] SGK-Portal [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>http://sgkodi.de/SGK-Portal/portal.xml</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+
+
+<item>
+<title>[B][COLOR antiquewhite] OpenKD-Portal [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>http://openkd.tv/homepage/files/OpenKD_Portal/portal.txt</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+
+<item>
+<title>[B][COLOR antiquewhite] Wagas World [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>http://wagasworld.com/Kodi/wagasworld.xml</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+
+<item>
+<title>[B][COLOR antiquewhite] PsycoTV-Portal [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/PsycoTV/PsycoTV/master/psyco</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] Voodoo IPTV Liste [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>https://pastebin.com/raw/i8FQWG7X</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] Robin Hood IPTV Liste [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>http://kodibalkan.com/MenuWorld/GERMANY/menu.xml</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] Kodistreams.tk IPTV Liste [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>http://kodistreams.tk/dynlist.php</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] FluxusTv-World [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>https://pastebin.com/raw/ZzGTySZE</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] TheSamsungFreakTV [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Mikolaj2019/TheSamsungFreak-TV-Addon/master/TheSamsungFreakTVMenueTEST</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] Swift-World [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<jsonrpc>plugin://script.module.limitless-swiftstreamz</jsonrpc>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+ 
+<item>
+<title>[B][COLOR antiquewhite] TV-TAB [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<jsonrpc>plugin://script.module.limitless-tvtap</jsonrpc>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] Zadar TV Liste 1 [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>https://zadarbuild.com.hr/Vukovarska_golubica/de.m3u</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] Zadar TV Liste 2 [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>https://zadarbuild.com.hr/Vukovarska_golubica/de1.m3u</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] Motherless [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<jsonrpc>plugin://script.module.7of9-motherless</jsonrpc>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] Video Devil [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<jsonrpc>plugin://script.module.7of9-videodevil</jsonrpc>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] A Pirates Life [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<jsonrpc>plugin://script.module.7of9-pirateslife4me</jsonrpc>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] Torrent Only with Real Debrid Account [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] "lorem" [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<jsonrpc>plugin://</jsonrpc>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] "lorem" [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<jsonrpc>plugin://</jsonrpc>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] "lorem" [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink></externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+</item>
