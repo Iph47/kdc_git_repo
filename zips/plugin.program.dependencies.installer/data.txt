@@ -17,4 +17,3 @@ script.module.7of9-motherless*https://github.com/KDC-Community/kdc_git_repo/raw/
 script.module.7of9-pirateslife4me*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.module.7of9-pirateslife4me/script.module.7of9-pirateslife4me-1.3.zip*7of9-pirateslife4me.png
 script.module.7of9-videodevil*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.module.7of9-videodevil/script.module.7of9-videodevil-1.7.197b.zip*7of9-videodevil.png
 script.module.F4mProxy*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.video.F4mProxy/script.video.F4mProxy-2.8.7.zip*F4mProxy.png
-script.module.*https://github.com/Pati/plugin.video.tvnow.de/archive/master.zip*tvnow.png

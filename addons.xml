@@ -3,9 +3,9 @@
 	
 	
 <addon id="plugin.program.dependencies.installer"
-		name="[COLOR red] Ctrl_Esc Abhängigkeiten (Dependencies) Installer / Updater [/COLOR]"
+		name="[B][COLOR antiquewhite] Kodi Abhängigkeiten (Dependencies) Installer / Updater [/B][/COLOR]"
 		version="2019.10.10"
-		provider-name="[COLOR red] Ctrl_Esc [/COLOR]">
+		provider-name="[COLOR antiquewhite] Ctrl_Esc [/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="2.7.13" />
 	</requires>
