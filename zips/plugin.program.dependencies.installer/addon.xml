@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.dependencies.installer"
-		name="[COLOR red] Ctrl_Esc Abhängigkeiten (Dependencies) Installer / Updater [/COLOR]"
+		name="[COLOR red] Kodi Abhängigkeiten (Dependencies) Installer / Updater [/COLOR]"
 		version="2019.10.10"
 		provider-name="[COLOR red] Ctrl_Esc [/COLOR]">
 	<requires>
