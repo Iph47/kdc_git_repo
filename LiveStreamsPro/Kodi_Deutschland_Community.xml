@@ -69,8 +69,6 @@
 <item>
 
 
-
-
 <item>
 <title>[B][COLOR antiquewhite] Ghost IPTV Liste [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
@@ -78,8 +76,6 @@
 <fanart>https://i.imgur.com/ofMpJxV.png</fanart>
 <info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
-
-
 
 
 <item>
@@ -91,8 +87,6 @@
 <item>
 
 
-
-
 <item>
 <title>[B][COLOR antiquewhite] OpenKD-Portal [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
@@ -102,7 +96,6 @@
 <item>
 
 
-
 <item>
 <title>[B][COLOR antiquewhite] Wagas World [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
@@ -110,7 +103,6 @@
 <fanart>https://i.imgur.com/ofMpJxV.png</fanart>
 <info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
-
 
 
 <item>
@@ -150,7 +142,7 @@
 
 
 <item>
-<title>[B][COLOR antiquewhite] FluxusTv-World [/B][/COLOR]<title>
+<title>[B][COLOR antiquewhite] FluxusTv-World IPTV Liste [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
 <externallink>https://pastebin.com/raw/ZzGTySZE</externallink>
 <fanart>https://i.imgur.com/ofMpJxV.png</fanart>
@@ -180,6 +172,33 @@
 <title>[B][COLOR antiquewhite] TV-TAB [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
 <jsonrpc>plugin://script.module.limitless-tvtap</jsonrpc>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] Pavoo IPTV Liste [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>http://pavootv.com/PAVOOTV/germany/menu.xml</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] Davor IPTV Liste [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>http://davor.live/Addon/tv/world/Germany/prva lista.mp4</externallink>
+<fanart>https://i.imgur.com/ofMpJxV.png</fanart>
+<info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite] Davor IPTV Liste 2 [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>https://i.imgur.com/ofMpJxV.png</thumbnail>
+<externallink>http://davor.live/Addon/tv/world/Germany/druga lista.mp4</externallink>
 <fanart>https://i.imgur.com/ofMpJxV.png</fanart>
 <info>[B][I][COLOR red] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
