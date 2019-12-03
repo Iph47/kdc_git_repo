@@ -1,0 +1,58 @@
+[
+    {
+        "url": "http://bit.ly/kn-kodi", 
+        "logos": "", 
+        "image": "", 
+        "cache": 0, 
+        "name": "DE Free 1"
+    }, 
+    {
+        "url": "http://stream.nmbs.top/lists/Germany.m3u8", 
+        "logos": "", 
+        "image": "", 
+        "cache": 0, 
+        "name": "SKY NIMBUS"
+    }, 
+    {
+        "url": "https://bit.ly/2Kyc5LZ", 
+        "logos": "", 
+        "image": "", 
+        "cache": 0, 
+        "name": "GERman Auto TV"
+    }, 
+    {
+        "url": "/storage/.kodi/userdata/playlists/music/MusicChoice_Radio_Liste.m3u", 
+        "logos": "", 
+        "image": "", 
+        "cache": 0, 
+        "name": "Music Choice Radio"
+    }, 
+    {
+        "url": "http://davor.live/Addon/tv/world/Germany/prva lista.mp4", 
+        "logos": "", 
+        "image": "", 
+        "cache": 0, 
+        "name": "davor"
+    }, 
+    {
+        "url": "http://davor.live/Addon/tv/world/Germany/druga lista.mp4", 
+        "logos": "", 
+        "image": "", 
+        "cache": 0, 
+        "name": "davor 2"
+    }, 
+    {
+        "url": "http://davor.live/Addon/tv/world/Spania/Prva lista.mp4", 
+        "logos": "", 
+        "image": "", 
+        "cache": 0, 
+        "name": "davor spain"
+    }, 
+    {
+        "url": "http://davor.live/Addon/tv/world/UK/prva lista.mp4", 
+        "logos": "", 
+        "image": "", 
+        "cache": 0, 
+        "name": "davor uk"
+    }
+]
