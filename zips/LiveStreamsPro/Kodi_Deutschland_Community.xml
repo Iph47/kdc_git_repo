@@ -2,7 +2,34 @@
 
 
 <item>
-<title>[B][COLOR darkred]===[/B][/COLOR][B][COLOR antiquewhite] Control Escape [/B][/COLOR][B][COLOR darkred] TV [B][COLOR antiquewhite]Script [B][COLOR darkred]===[/B][/COLOR]<title>
+<title>[B][COLOR limered]============================================= [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<externallink></externallink>
+<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
+<info>[B][I][COLOR darkred] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR lime]===  First Download & Install plugin.git.browser!!!   ===   https://bit.ly/33N2cQr   ===   Inside The Addon Search Username: KDC-Community   ===   Then Install All """script.module""" And Enjoy!!! [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<externallink></externallink>
+<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
+<info>[B][I][COLOR darkred] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+<item>
+<title>[B][COLOR limered]============================================= [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<externallink></externallink>
+<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
+<info>[B][I][COLOR darkred] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+
+
+<item>
+<title>[B][COLOR darkred]===[/B][/COLOR][B][COLOR antiquewhite]  Control Escape [/B][/COLOR][B][COLOR darkred] TV [B][COLOR antiquewhite]Script [B][COLOR darkred]===[/B][/COLOR]<title>
 <thumbnail>ext</thumbnail>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
 
@@ -125,7 +152,7 @@
 
 
 <item>
-<title>[B][COLOR antiquewhite]=== YouTube [COLOR darkred] Horror [B][COLOR lime] (Playlists) [B][COLOR antiquewhite]===[/COLOR][/B]</title>
+<title>[B][COLOR antiquewhite]===  YouTube [COLOR darkred] Horror [B][COLOR antiquewhite] (Playlists) [B][COLOR antiquewhite]===[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
 <thumbnail>ext<thumbnail>
 <regex><name>makelist</name>
@@ -148,7 +175,7 @@
 
 
 <item>
-<title>[B][COLOR antiquewhite]===  YouTube [COLOR darkred] Filme [B][COLOR lime] (Results Query) [COLOR antiquewhite]===[/COLOR][/B]</title>
+<title>[B][COLOR antiquewhite]===  YouTube [COLOR darkred] Filme [B][COLOR antiquewhite] (Querylists) [COLOR antiquewhite]===[/COLOR][/B]</title>
 <link>$doregex[makelist]</link>
  
 <regex>
@@ -185,16 +212,6 @@
 
 
 <item>
-<title>[B][COLOR antiquewhite]===  El Turko [COLOR darkred] TV [COLOR antiquewhite]===[/COLOR][/B]<title>
-<link>http://ignorame<link><thumbnail>ext</thumbnail>
-<externallink>http://kodistreams.tk/dynlist.php</externallink>
-<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
-<info>[B][I][COLOR darkred] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
-<item>
-
-
-
-<item>
 <title>[B][COLOR limered]============================================= [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
 <externallink></externallink>
@@ -204,7 +221,7 @@
 
 
 <item>
-<title>[B][COLOR lime]====    Install plugin.git.browser first!!!    ====    Then search Username: KDC-Community     ====    Install all script.modules and enjoy!!! [/B][/COLOR]<title>
+<title>[B][COLOR lime]===  First Download & Install plugin.git.browser!!!   ===   https://bit.ly/33N2cQr   ===   Inside The Addon Search Username: KDC-Community   ===   Then Install All """script.module""" And Enjoy!!! [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
 <externallink></externallink>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
@@ -348,6 +365,23 @@
 <item>
 
 
+<item>
+<title>[B][COLOR antiquewhite]===  El Turko [COLOR darkred] TV [COLOR antiquewhite]===[/COLOR][/B]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<externallink>http://elturkotc.bplaced.net/Alman.xml</externallink>
+<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
+<info>[B][I][COLOR darkred] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite]===  Fluxus [COLOR darkred] TV [COLOR antiquewhite]===[/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<externallink>https://pastebin.com/raw/ZzGTySZE</externallink>
+<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
+<info>[B][I][COLOR darkred] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
 
 <item>
 <title>[B][COLOR limered]============================================= [/B][/COLOR]<title>
@@ -359,7 +393,7 @@
 
 
 <item>
-<title>[B][COLOR lime]====    Install plugin.git.browser first!!!    ====    Then search Username: KDC-Community     ====    Install Addon plugin.video.playlistLoader and replace the playLists.txt file in .kodi/userdata/addon_data/plugin.video.playlistLoader/playLists.txt and enjoy!!! [/B][/COLOR]<title>
+<title>[B][COLOR lime]===  Install Addon plugin.video.playlistLoader   ===   https://bit.ly/34N8PU6   ===   Then Download The playLists.txt!   ===   https://bit.ly/2DJXVCy   ===   And Replace The playLists.txt File In """ /userdata/addon_data/plugin.video.playlistLoader/playLists.txt """ And Enjoy!!! [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
 <externallink></externallink>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
@@ -375,7 +409,7 @@
 
 
 <item>
-<title>[B][COLOR antiquewhite]=== [B][COLOR lime]Davor TV DE 1 [COLOR antiquewhite]===[/B][/COLOR]<title>
+<title>[B][COLOR antiquewhite]===  [B][COLOR lime]Davor TV DE 1 [COLOR antiquewhite]===[/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
 <jsonrpc>plugin://plugin.video.playlistLoader/?cache=0&amp;iconimage&amp;logos&amp;mode=2&amp;name=%5bdavor%5d&amp;url=http%3a%2f%2fdavor.live%2fAddon%2ftv%2fworld%2fGermany%2fprva%20lista.mp4</jsonrpc>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
@@ -384,7 +418,7 @@
 
 
 <item>
-<title>[B][COLOR antiquewhite]=== [B][COLOR lime]Davor TV DE 2 [COLOR antiquewhite]===[/B][/COLOR]<title>
+<title>[B][COLOR antiquewhite]===  [B][COLOR lime]Davor TV DE 2 [COLOR antiquewhite]===[/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
 <jsonrpc>plugin://plugin.video.playlistLoader/?cache=0&amp;iconimage&amp;logos&amp;mode=2&amp;name=%5bdavor%202%5d&amp;url=http%3a%2f%2fdavor.live%2fAddon%2ftv%2fworld%2fGermany%2fdruga%20lista.mp4</jsonrpc>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
@@ -393,7 +427,7 @@
 
 
 <item>
-<title>[B][COLOR antiquewhite]=== [B][COLOR lime]Davor IPTV Liste World [COLOR antiquewhite]===[/B][/COLOR]<title>
+<title>[B][COLOR antiquewhite]===  [B][COLOR lime]Davor IPTV Liste World [COLOR antiquewhite]===[/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
 <externallink>http://davor.live/Addon/tv/world/meni.mp4</externallink>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
@@ -412,15 +446,6 @@
 
 
 <item>
-<title>[B][COLOR antiquewhite] FluxusTv-World IPTV Liste [/B][/COLOR]<title>
-<link>http://ignorame<link><thumbnail>ext</thumbnail>
-<externallink>https://pastebin.com/raw/ZzGTySZE</externallink>
-<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
-<info>[B][I][COLOR darkred] KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
-<item>
-
-
-<item>
 <title>[B][COLOR limered]============================================= [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
 <externallink></externallink>
@@ -430,7 +455,7 @@
 
 
 <item>
-<title>[B][COLOR antiquewhite] "lorem jsonrpc" [/B][/COLOR]<title>
+<title>[B][COLOR antiquewhite]  "lorem jsonrpc" [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
 <jsonrpc>plugin://</jsonrpc>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
@@ -439,7 +464,7 @@
 
 
 <item>
-<title>[B][COLOR antiquewhite] "lorem externallink" [/B][/COLOR]<title>
+<title>[B][COLOR antiquewhite]  "lorem externallink" [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
 <externallink></externallink>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
