@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.widtf"
+version="18.1.04"
+name="widtf"
+provider-name="Ctrl_Esc">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="de">Stream_Medial_Deutschland</summary>
+  <description lang="de_DE">Wollt Ihr Das Totale Fernsehen ist eine Linksammlung aus der Galaxy des Uni www: ersum</description>
+  <disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden weder von dem Ersteller dieses Addons gehostet, noch steht der Ersteller dieses Addons in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot></screenshot>
+    <screenshot></screenshot>
+    <screenshot></screenshot>    
+  </assets>
+  <news></news>
+</extension>
+</addon>
