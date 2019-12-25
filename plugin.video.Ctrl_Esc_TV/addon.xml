@@ -15,7 +15,7 @@ provider-name="Ctrl_Esc">
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="de">RaspberryPi_Kodi_Deutschland_Community</summary>
-  <description lang="de_DE">Control Escape Televison ist eine Linksammlung aus der Galaxy des Uni www: ersum. Install Dependencies First!!!  --"" script.module.limitless-swiftstreamz ""-- Credits to: locofix | Kicha Mutz | and You</description>
+  <description lang="de_DE">Control Escape Televison ist eine Linksammlung aus der Galaxy des Uni www: ersum. -- Credits to: locofix | Nimbus| Kicha Mutz | and You</description>
   <disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden weder von dem Ersteller dieses Addons gehostet, noch steht der Ersteller dieses Addons in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
   <assets>
     <icon>icon.png</icon>
