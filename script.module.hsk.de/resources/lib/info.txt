@@ -1,0 +1,39 @@
+cloudscraper dev 1.2.16 dev
+https://github.com/VeNoMouS/cloudscraper/
+
+certifi 2019.11.28
+https://pypi.org/project/certifi/
+
+chardet 3.0.4
+https://pypi.org/project/chardet/
+
+idna 2.8
+https://pypi.org/project/idna/
+
+Js2Py 0.66
+https://pypi.org/project/Js2Py/
+
+pyjsparser 2.7.1
+https://pypi.org/project/pyjsparser/
+
+pytz 2005k
+https://pypi.org/project/pytz/2005k/
+
+requests 2.22.0
+https://pypi.org/project/requests/
+
+tzlocal 2.0.0
+https://pypi.org/project/tzlocal/
+
+urllib3 1.25.7
+https://pypi.org/project/urllib3/
+
+secretpy 0.8.0
+https://pypi.org/project/secretpy/
+
+six 1.13.0
+https://pypi.org/project/six/
+
+##################################
+# LAST UPDATE 12.12.2019 - 07:00 #
+##################################

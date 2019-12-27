@@ -1,0 +1,123 @@
+      /// Sets the listitem's infoLabels.
+      ///
+      /// @param type               string - type of
+      /// @param infoLabels         dictionary - pairs of `{ label: value }`
+      ///
+      /// __Available types__
+      /// | Command name | Description           |
+      /// |:------------:|:----------------------|
+      /// | video        | Video information
+      /// | music        | Music information
+      /// | pictures     | Pictures informanion
+      /// | game         | Game information
+      ///
+      /// @note To set pictures exif info, prepend `exif:` to the label. Exif values must be passed
+      ///       as strings, separate value pairs with a comma. <b>(eg. <c>{'exif:resolution': '720,480'}</c></b>
+      ///       See \ref kodi_pictures_infotag for valid strings.\n
+      ///       \n
+      ///       You can use the above as keywords for arguments and skip certain optional arguments.
+      ///       Once you use a keyword, all following arguments require the keyword.
+      ///
+      /// __General Values__ (that apply to all types):
+      /// | Info label    | Description                                        |
+      /// |--------------:|:---------------------------------------------------|
+      /// | count         | integer (12) - can be used to store an id for later, or for sorting purposes
+      /// | size          | long (1024) - size in bytes
+      /// | date          | string (%d.%m.%Y / 01.01.2009) - file date
+      ///
+      /// __Video Values__:
+      /// | Info label    | Description                                        |
+      /// |--------------:|:---------------------------------------------------|
+      /// | genre         | string (Comedy) or list of strings (["Comedy", "Animation", "Drama"])
+      /// | country       | string (Germany) or list of strings (["Germany", "Italy", "France"])
+      /// | year          | integer (2009)
+      /// | episode       | integer (4)
+      /// | season        | integer (1)
+      /// | sortepisode   | integer (4)
+      /// | sortseason    | integer (1)
+      /// | episodeguide  | string (Episode guide)
+      /// | showlink      | string (Battlestar Galactica) or list of strings (["Battlestar Galactica", "Caprica"])
+      /// | top250        | integer (192)
+      /// | setid         | integer (14)
+      /// | tracknumber   | integer (3)
+      /// | rating        | float (6.4) - range is 0..10
+      /// | userrating    | integer (9) - range is 1..10 (0 to reset)
+      /// | watched       | depreciated - use playcount instead
+      /// | playcount     | integer (2) - number of times this item has been played
+      /// | overlay       | integer (2) - range is `0..7`.  See \ref kodi_guilib_listitem_iconoverlay "Overlay icon types" for values
+      /// | cast          | list (["Michal C. Hall","Jennifer Carpenter"]) - if provided a list of tuples cast will be interpreted as castandrole
+      /// | castandrole   | list of tuples ([("Michael C. Hall","Dexter"),("Jennifer Carpenter","Debra")])
+      /// | director      | string (Dagur Kari) or list of strings (["Dagur Kari", "Quentin Tarantino", "Chrstopher Nolan"])
+      /// | mpaa          | string (PG-13)
+      /// | plot          | string (Long Description)
+      /// | plotoutline   | string (Short Description)
+      /// | title         | string (Big Fan)
+      /// | originaltitle | string (Big Fan)
+      /// | sorttitle     | string (Big Fan)
+      /// | duration      | integer (245) - duration in seconds
+      /// | studio        | string (Warner Bros.) or list of strings (["Warner Bros.", "Disney", "Paramount"])
+      /// | tagline       | string (An awesome movie) - short description of movie
+      /// | writer        | string (Robert D. Siegel) or list of strings (["Robert D. Siegel", "Jonathan Nolan", "J.K. Rowling"])
+      /// | tvshowtitle   | string (Heroes)
+      /// | premiered     | string (2005-03-04)
+      /// | status        | string (Continuing) - status of a TVshow
+      /// | set           | string (Batman Collection) - name of the collection
+      /// | setoverview   | string (All Batman movies) - overview of the collection
+      /// | tag           | string (cult) or list of strings (["cult", "documentary", "best movies"]) - movie tag
+      /// | imdbnumber    | string (tt0110293) - IMDb code
+      /// | code          | string (101) - Production code
+      /// | aired         | string (2008-12-07)
+      /// | credits       | string (Andy Kaufman) or list of strings (["Dagur Kari", "Quentin Tarantino", "Chrstopher Nolan"]) - writing credits
+      /// | lastplayed    | string (%Y-%m-%d %h:%m:%s = 2009-04-05 23:16:04)
+      /// | album         | string (The Joshua Tree)
+      /// | artist        | list (['U2'])
+      /// | votes         | string (12345 votes)
+      /// | path          | string (/home/user/movie.avi)
+      /// | trailer       | string (/home/user/trailer.avi)
+      /// | dateadded     | string (%Y-%m-%d %h:%m:%s = 2009-04-05 23:16:04)
+      /// | mediatype     | string - "video", "movie", "tvshow", "season", "episode" or "musicvideo"
+      /// | dbid          | integer (23) - Only add this for items which are part of the local db. You also need to set the correct 'mediatype'!
+      ///
+      /// __Music Values__:
+      /// | Info label               | Description                                        |
+      /// |-------------------------:|:---------------------------------------------------|
+      /// | tracknumber              | integer (8)
+      /// | discnumber               | integer (2)
+      /// | duration                 | integer (245) - duration in seconds
+      /// | year                     | integer (1998)
+      /// | genre                    | string (Rock)
+      /// | album                    | string (Pulse)
+      /// | artist                   | string (Muse)
+      /// | title                    | string (American Pie)
+      /// | rating                   | float - range is between 0 and 10
+      /// | userrating               | integer - range is 1..10
+      /// | lyrics                   | string (On a dark desert highway...)
+      /// | playcount                | integer (2) - number of times this item has been played
+      /// | lastplayed               | string (%Y-%m-%d %h:%m:%s = 2009-04-05 23:16:04)
+      /// | mediatype                | string - "music", "song", "album", "artist"
+      /// | dbid                     | integer (23) - Only add this for items which are part of the local db. You also need to set the correct 'mediatype'!
+      /// | listeners                | integer (25614)
+      /// | musicbrainztrackid       | string (cd1de9af-0b71-4503-9f96-9f5efe27923c)
+      /// | musicbrainzartistid      | string (d87e52c5-bb8d-4da8-b941-9f4928627dc8)
+      /// | musicbrainzalbumid       | string (24944755-2f68-3778-974e-f572a9e30108)
+      /// | musicbrainzalbumartistid | string (d87e52c5-bb8d-4da8-b941-9f4928627dc8)
+      /// | comment                  | string (This is a great song)
+      ///
+      /// __Picture Values__:
+      /// | Info label    | Description                                        |
+      /// |--------------:|:---------------------------------------------------|
+      /// | title         | string (In the last summer-1)
+      /// | picturepath   | string (`/home/username/pictures/img001.jpg`)
+      /// | exif*         | string (See \ref kodi_pictures_infotag for valid strings)
+      ///
+      /// __Game Values__:
+      /// | Info label    | Description                                        |
+      /// |--------------:|:---------------------------------------------------|
+      /// | title         | string (Super Mario Bros.)
+      /// | platform      | string (Atari 2600)
+      /// | genres        | list (["Action","Strategy"])
+      /// | publisher     | string (Nintendo)
+      /// | developer     | string (Square)
+      /// | overview      | string (Long Description)
+      /// | year          | integer (1980)
+      /// | gameclient    | string (game.libretro.fceumm)
