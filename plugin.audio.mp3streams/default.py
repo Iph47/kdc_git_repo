@@ -533,15 +533,19 @@ def play_album(name, url, iconimage, mix, clear):
                 return
     pl = get_XBMCPlaylist(clear)
     for url ,liz in playlist:
-        pl.add(url,liz)
+        if pl.size() < 1:
+            pl.add(url,liz)
+            xbmc.Player().play(pl)
+        else:
+            pl.add(url, liz)
         #if pl.size() > 3:
         #    break
     dp.close()
-    if float(xbmc_version) < 17:
-        newPlay(pl, clear)
-    else:
-        if clear or (not xbmc.Player().isPlayingAudio()):
-            xbmc.Player().play(pl)
+#    if float(xbmc_version) < 17:
+#        newPlay(pl, clear)
+#    else:
+#        if clear or (not xbmc.Player().isPlayingAudio()):
+#            xbmc.Player().play(pl)
 
 def play_song(url, name, songname, artist, album, iconimage, dur, clear):
     import playerMP3

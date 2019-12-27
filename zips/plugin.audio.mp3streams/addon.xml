@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2019.10.10" provider-name="Ctrl_Esc">
+<addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2019.12.24" provider-name="Ctrl_Esc">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.t0mm0.common" version="1.1.0"/>
@@ -12,10 +12,16 @@
     <extension point="xbmc.service" library="playerMP3.py" start="startup" />
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary>A music streaming collection</summary>
-        <description>Browse, stream or download your favourite songs and albums</description>
-        <news>I only fix it for the Kodi Deutschland Community!°
-        Credits goes to qahanik, kinkin, art by Marquerite for original code</news>
+        <summary>A music streaming Collection.</summary>
+        <description>We fix this Addon for the RaspberryPi Kodi Deutschland Community!° 
+
+https://www.facebook.com/groups/raspikdc
+
+Credits to:
+
+TOXYNTH | Kicha Mutz | locofix 
+Art by Marquerite for original code. </description>
+        <news></news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
