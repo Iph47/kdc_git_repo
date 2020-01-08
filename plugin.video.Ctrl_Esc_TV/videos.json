@@ -532,5 +532,205 @@
       "video": "plugin://script.module.limitless-swiftstreamz/play/8/809/play.pvr",
       "genre": "SPORT"
 	}
+  ],
+    "7. SPORTS 3": [
+	{
+	  "name": "[COLOR lime]                  ----------             Sports 3            ----------[/COLOR]",
+      "thumb": "https://bit.ly/2oSsDWl",
+      "video": "ext",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "BOX NATION",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/711/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "FIGHTBOX",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/804/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "UFC FIGHT",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/833/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "KOMBAT SPORTS",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/25/1260/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "WWE NETWORK",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/715/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "NFL NETWORK",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/769/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "NBA TV",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/767/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "TOROS TV",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/32/1501/play.pvr",
+      "genre": "SPORT"
+	},
+    {
+	  "name": "MILAN TV",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/27/1366/play.pvr",
+      "genre": "SPORT"
+	},
+    {
+	  "name": "ZIGGO GOLF",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/29/1392/play.pvr",
+      "genre": "SPORT"
+	},
+    {
+	  "name": "ZIGGO RACING",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/29/1393/play.pvr",
+      "genre": "SPORT"
+	},
+    {
+	  "name": "ZIGGO VOETBAL",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/29/1394/play.pvr",
+      "genre": "SPORT"
+	},
+    {
+	  "name": "TENNIS CHANNEL",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/5/241/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "IFC",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/5/251/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "BEIN SPORTS ES",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/32/1483/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "BEIN LALIGA",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/32/1485/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "M MOTOTGP",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/32/1491/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "M FORMULA 1",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/32/1493/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "M FOTBOL",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/32/1494/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "M GOLF",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/32/1502/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "LIGA 123",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/32/1503/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "LIGA DE CAMPEONES",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/32/1505/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "PTV SPORTS",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/454/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "LIGA DE CAMPEONES",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/32/1505/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "ESPN",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/647/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "REAL MADRID",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/718/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "Arena Sports 1",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/736/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "Arena Sports 2",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/737/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "Arena Sports 3",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/738/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "Arena Sports 4",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/739/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "Arena Sports 5",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/740/play.pvr",
+      "genre": "SPORT"
+	},
+	{
+	  "name": "FREE SPORTS",
+      "thumb": "https://bit.ly/2NAwn6I",
+      "video": "plugin://script.module.limitless-swiftstreamz/play/8/809/play.pvr",
+      "genre": "SPORT"
+	}
   ]
 }
