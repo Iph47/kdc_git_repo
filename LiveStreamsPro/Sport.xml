@@ -1,0 +1,23 @@
+#EXTM3U
+
+
+#EXTINF:-1 tvg-id="Glory Kickboxing (Germany)" tvg-name="ext" tvg-logo="https://i.imgur.com/5LelUfo.jpg" group-title="Germany",Glory Kickboxing (Germany)
+https://stitcher.pluto.tv/stitch/hls/channel/5ad9be1be738977e2c312134/master.m3u8?deviceType=&deviceMake=&deviceVersion=&deviceId=&appVersion=&deviceDNT=0&deviceModel=&embedPartner=pluto.tv&sid=dur393qqr6rgv34sdqt02gjgp6
+
+
+#EXTINF:-1 tvg-id="The Surf Channel" tvg-name="ext" tvg-logo="https://i.imgur.com/5LelUfo.jpg" group-title="Germany",The Surf Channel
+https://stitcher.pluto.tv/stitch/hls/channel/56377913f7c493ce618c4de1/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=Chrome&sid=d4e39858-3408-4e56-aaa4-b88b44412557&deviceId=fe5e8fab-2fda-4c6e-b1a5-43fc8823fca1&deviceVersion=69.0.3497.100&appVersion=2.1.4&deviceDNT=0&userId=&advertisingId=&deviceLat=37.6783&deviceLon=-120.9501&app_name=&appName=&appStoreUrl=&serverSideAds=true
+
+
+#EXTINF:-1 tvg-id="Impact Wrestling" tvg-name="ext" tvg-logo="https://i.imgur.com/5LelUfo.jpg" group-title="Germany",Impact Wrestling
+https://stitcher.pluto.tv/stitch/hls/channel/59b722526996084038c01e1b/master.m3u8?deviceType=web&deviceMake=Chrome&deviceModel=Chrome&sid=d4e39858-3408-4e56-aaa4-b88b44412557&deviceId=fe5e8fab-2fda-4c6e-b1a5-43fc8823fca1&deviceVersion=69.0.3497.100&appVersion=2.1.4&deviceDNT=0&userId=&advertisingId=&deviceLat=37.6783&deviceLon=-120.9501&app_name=&appName=&appStoreUrl=&serverSideAds=true
+
+
+#EXTINF:-1 tvg-id="ext" tvg-name="ext" tvg-logo="https://i.imgur.com/5LelUfo.jpg" group-title="Germany",ext
+
+
+
+
+
+
+
