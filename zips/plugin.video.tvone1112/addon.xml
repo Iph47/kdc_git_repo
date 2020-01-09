@@ -16,7 +16,7 @@
   <extension point="xbmc.addon.metadata">
     <reuselanguageinvoker>true</reuselanguageinvoker>
   <summary lang="de"></summary>
-  <description lang="de_DE">-- Credits to: Ctrl_Esc --</description>
+  <description lang="de_DE">LiveNetTV</description>
   <disclaimer lang="de_DE">Die von diesem Addon dargestellten Inhalte werden weder von dem Ersteller dieses Addons gehostet, noch steht der Ersteller dieses Addons in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
     <language></language>
     <platform>all</platform>
