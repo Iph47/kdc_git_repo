@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.i_love_techno"
+    name="I Love Techno" version="2019.10.10"
+	provider-name="SH Germania">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+       <summary>Radio Online Stream</summary>
+        <description>Stream I Love Techno Online http://ilovetechno.fm/ </description>
+        <platform>all</platform>
+        <language>en</language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>http://ilovetechno.fm/</website>
+        <source>https://app.box.com/s/vc9jtbnupbu7cap1s8h2</source>
+        <email></email>
+    </extension>
+</addon>

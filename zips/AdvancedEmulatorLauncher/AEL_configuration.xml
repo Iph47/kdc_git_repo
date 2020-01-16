@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- Exported by AEL on 2019-11-20 23:12:33 -->
+<advanced_emulator_launcher_configuration>
+<category>
+  <name>FRONTENDS</name>
+  <genre>Frontends</genre>
+  <rating />
+  <plot>RetroArch/EmulationStation</plot>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_trailer />
+</category>
+<category>
+  <name>GAMESTARTER</name>
+  <genre />
+  <rating />
+  <plot>Gamestarter default emulators collection</plot>
+  <Asset_Prefix>Gamestarter</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Gamestarter_icon.png</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Gamestarter_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_trailer />
+</category>
+<launcher>
+  <name>Arcade (FBA)</name>
+  <category>GAMESTARTER</category>
+  <year>1972</year>
+  <genre>Arcade</genre>
+  <developer>Final Burn Alpha</developer>
+  <rating />
+  <plot>FinalBurn Alpha is an arcade emulator for MC68000/Z80 based arcade games. It mostly plays Capcom games on the CPS-1 and CPS-2 boards as well as most of the Neo-Geo MVS arcade games and other miscellaneous hardware.</plot>
+  <platform>Arcade</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>fbalpha &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/fba/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/fba</ROM_asset_path>
+  <Asset_Prefix>Arcade - FBA</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Arcade FBA_fanart_1.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Arcade - FBA_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Arcade (MAME 2003)</name>
+  <category>GAMESTARTER</category>
+  <year>1972</year>
+  <genre>Arcade</genre>
+  <developer>MAME</developer>
+  <rating />
+  <plot>MAME (an acronym of Multiple Arcade Machine Emulator) is a free and open source emulator designed to recreate the hardware of arcade game systems in software on modern personal computers and other platforms. The intention is to preserve gaming history by preventing vintage games from being lost or forgotten. The aim of MAME is to be a reference to the inner workings of the emulated arcade machines; the ability to actually play the games is considered &quot;a nice side effect&quot;. Joystiq has listed MAME as an application that every gamer should have.&#10;&#10;The first public MAME release (0.1) was on February 5, 1997, by Nicola Salmoria. The emulator now supports over seven thousand unique games and ten thousand actual ROM image sets, though not all of the supported games are playable. MESS, an emulator for many video game consoles and computer systems, based on the MAME core, has been integrated into MAME in 2015.</plot>
+  <platform>Arcade</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>mame2003 &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/mame/MAME 0.37b5 mame2000/MAME0.37b5_MAME2000/roms</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/mame</ROM_asset_path>
+  <Asset_Prefix>Arcade - MAME</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Arcade - MAME_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Arcade - MAME_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Atari 2600</name>
+  <category>GAMESTARTER</category>
+  <year>1977</year>
+  <genre>Second generation console</genre>
+  <developer>Atari</developer>
+  <rating />
+  <plot>The Atari 2600 (or Atari VCS before 1982) is a home video game console released on September 11, 1977 by Atari, Inc. It is credited with popularizing the use of microprocessor-based hardware and ROM cartridges containing game code, a format first used with the Fairchild Channel F video game console in 1976. This format contrasts with the older model of having non-microprocessor dedicated hardware, which could only play the games which were physically built into the unit.&#10;&#10;The console was originally sold as the Atari VCS, an abbreviation for Video Computer System. Following the release of the Atari 5200 in 1982, the VCS was renamed to the &quot;Atari 2600&quot;, after the unit&apos;s Atari part number, CX2600. The 2600 was typically bundled with two joystick controllers, a conjoined pair of paddle controllers, and a game cartridge: initially Combat, and later Pac-Man.</plot>
+  <platform>Atari 2600</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>stella &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/atari2600/</ROM_path>
+  <ROM_ext>a26|bin|zip|7z|rom|gz</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/atari2600</ROM_asset_path>
+  <Asset_Prefix>Atari 2600</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Atari 2600_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Atari 2600_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Atari 5200</name>
+  <category>GAMESTARTER</category>
+  <year>1982</year>
+  <genre>Second generation console</genre>
+  <developer>Atari</developer>
+  <rating />
+  <plot>The Atari 5200 SuperSystem, commonly known as the Atari 5200, is a home video game console that was introduced in 1982 by Atari Inc. as a higher-end complementary console for the popular Atari 2600. The 5200 was created to compete with the Intellivision, but wound up more directly competing with the ColecoVision shortly after its release. The 5200&apos;s internal hardware is almost identical that of Atari&apos;s 8-bit computers, although software is not directly compatible between the two systems. The 5200&apos;s controllers have an analog joystick and a numeric keypad along with start, pause and reset buttons. The 360-degree non-centering joystick was touted as offering more control than the eight-way joystick controller offered with the Atari 2600.</plot>
+  <platform>Atari 5200</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>atari800 &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/atari5200/</ROM_path>
+  <ROM_ext>a52|bin|zip|xfd|ATR|atr|dcm|car|xex|7z</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/atari5200</ROM_asset_path>
+  <Asset_Prefix>Atari 5200</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Atari 5200_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Atari 5200_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Atari 7800</name>
+  <category>GAMESTARTER</category>
+  <year>1986</year>
+  <genre>Third generation console</genre>
+  <developer>Atari</developer>
+  <rating />
+  <plot>The Atari 7800 ProSystem, or simply the Atari 7800, is a home video game console officially released by Atari Corporation in 1986. It is almost fully backward-compatible with the Atari 2600, the first console to have backward compatibility without the use of additional modules. It was considered affordable at a price of US$140. The 7800 has significantly improved graphics hardware over the 2600, but uses the same audio chip. It also shipped with a different model of joystick than the 2600-standard CX40. The 1986 launch is sometimes referred to as a &quot;re-release&quot; or &quot;relaunch&quot; because the Atari 7800 had originally been announced on May 21, 1984, to replace Atari Inc.&apos;s Atari 5200, but a general release was shelved due to the sale of the company. A few units were released to test markets in June 1984 though. However, by 1987 the Nintendo Entertainment System was already dominating the home console market, and the 7800 could not gain a significant foothold.</plot>
+  <platform>Atari 7800</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>prosystem &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/atari7800/</ROM_path>
+  <ROM_ext>a78|bin|zip|7z</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/atari7800</ROM_asset_path>
+  <Asset_Prefix>Atari 7800</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Atari 7800_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Atari 7800_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Atari Jaguar</name>
+  <category>GAMESTARTER</category>
+  <year>1993</year>
+  <genre>Fifth generation console</genre>
+  <developer>Atari</developer>
+  <rating />
+  <plot>The Atari Jaguar is a home video game console that was developed by Atari Corporation. The console was the sixth and last programmable console to be developed under the Atari brand, originally released in North America in November 1993. Marketed by Atari as the first 64-bit video game console, the Jaguar was designed to compete with the existing 16-bit consoles (Sega Genesis and Super Nintendo Entertainment System) and the 32-bit 3DO Interactive Multiplayer platform (which launched the same year). Development on the Atari Jaguar started in the early 90s, and was designed by Flare Technology, who were tasked by Atari to create two consoles; the Atari Panther, which would compete with the Genesis and the Super NES, and a successor, the Jaguar, which would surpass the capabilities of any other console on the market at the time. With development of the Jaguar running ahead of schedule, the Panther was cancelled, and the release of the Jaguar was pushed forward. It was originally released to test markets in New York City and San Francisco in November 1993, and to the general public in 1994, with Cybermorph as the pack-in launch game.</plot>
+  <platform>Atari Jaguar</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>virtualjaguar &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/atarijaguar</ROM_path>
+  <ROM_ext>j64|zip|jag|bin</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/atarijaguar</ROM_asset_path>
+  <Asset_Prefix>Atari Jaguar</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Atari Jaguar_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Atari Jaguar_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Atari Lynx</name>
+  <category>GAMESTARTER</category>
+  <year>1988</year>
+  <genre>Fourth generation console</genre>
+  <developer>Atari</developer>
+  <rating />
+  <plot>The Atari Lynx is an 8 bit handheld game console that was released by Atari Corporation in October 1989 in North America, and in Europe and Japan in 1990. The Lynx holds the distinction of being the world&apos;s first handheld electronic game with a color LCD. The system is also notable for its forward-looking features, advanced graphics, and ambidextrous layout. As part of the fourth generation of gaming, the Lynx competed with the Game Boy (released just 2 months earlier), as well as the Game Gear and TurboExpress, both released the following year.</plot>
+  <platform>Atari Lynx</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>handy &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/atarilynx/</ROM_path>
+  <ROM_ext>lnx|zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/atarilynx</ROM_asset_path>
+  <Asset_Prefix>Atari Lynx</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Atari Lynx_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Atari Lynx_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Atari ST</name>
+  <category>GAMESTARTER</category>
+  <year>1985</year>
+  <genre>Personal Computer</genre>
+  <developer>Atari</developer>
+  <rating />
+  <plot>The Atari ST is a line of home computers from Atari Corporation and the successor to the Atari 8-bit family. The initial ST model, the 520ST, saw limited release in April-June 1985 and was widely available in July. The Atari ST is the first personal computer to come with a bitmapped color GUI, using a version of Digital Research&apos;s GEM released in February 1985. The 1040ST, released in 1986, is the first personal computer to ship with a megabyte of RAM in the base configuration and also the first with a cost-per-kilobyte of less than US$1. The Atari ST is part of a mid-1980s generation of home computers that have 16 or 32-bit processors, 256 KiB or more of RAM, and mouse-controlled graphical user interfaces. It includes the Macintosh, Commodore Amiga, Apple IIGS, and, in certain markets, the Acorn Archimedes. &quot;ST&quot; officially stands for &quot;Sixteen/Thirty-two&quot;, which refers to the Motorola 68000&apos;s 16-bit external bus and 32-bit internals.</plot>
+  <platform>Atari ST</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>hatari &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/atarijaguar</ROM_path>
+  <ROM_ext>st|stx|zip|msa|dim|ipf|raw|ctr|m3u|rom</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/atarist</ROM_asset_path>
+  <Asset_Prefix>Atari ST</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Atari ST_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Atari ST_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Commodore Amiga 500</name>
+  <category>GAMESTARTER</category>
+  <year>1987</year>
+  <genre>Personal computer</genre>
+  <developer>Commodore International</developer>
+  <rating />
+  <plot>The Amiga is a family of personal computers sold by Commodore in the 1980s and 1990s. Based on the Motorola 68000 family of microprocessors, the machine has a custom chipset with graphics and sound capabilities that were unprecedented for the price, and a pre-emptive multitasking operating system called AmigaOS. The Amiga provided a significant upgrade from earlier 8-bit home computers, including Commodore&apos;s own C64.</plot>
+  <platform>Commodore Amiga 500</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>puae &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/amiga/config</ROM_path>
+  <ROM_ext>adf|zip|uae</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/amiga</ROM_asset_path>
+  <Asset_Prefix>Amiga 500</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Amiga 500_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Amiga 500_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Commodore C64</name>
+  <category>GAMESTARTER</category>
+  <year>1982</year>
+  <genre>Personal computer</genre>
+  <developer>Commodore International</developer>
+  <rating />
+  <plot>The Commodore 64, also known as the C64, C-64, C= 64, or occasionally CBM 64 or VIC-64 in Sweden, is an 8-bit home computer introduced in January 1982 by Commodore International. It is listed in the Guinness World Records as the highest-selling single computer model of all time, with independent estimates placing the number sold between 10 and 17 million units. Volume production started in early 1982, with machines being released on to the market in August at a price of US$595 (equivalent to US $1,481.25 in 2016). Preceded by the Commodore VIC-20 and Commodore PET, the C64 takes its name from its 64 kilobytes (65,536 bytes) of RAM, and has technologically superior sound and graphical specifications when compared to some earlier systems such as the Apple II and Atari 800, with multi-color sprites and a more advanced sound processor..</plot>
+  <platform>Commodore C64</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>vice &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/C64</ROM_path>
+  <ROM_ext>zip|crt|d64|g64|t64|x64|prg|tab</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/C64</ROM_asset_path>
+  <Asset_Prefix>Commodore C64</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/C64_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/C64_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Dreamcast</name>
+  <category>GAMESTARTER</category>
+  <year>1998</year>
+  <genre>Sixth generation console</genre>
+  <developer>SEGA</developer>
+  <rating />
+  <plot>The Dreamcast is a home video game console released by Sega on November 27, 1998 in Japan, September 9, 1999 in North America, and October 14, 1999 in Europe. It was the first in the sixth generation of video game consoles, preceding Sony&apos;s PlayStation 2, Nintendo&apos;s GameCube and Microsoft&apos;s Xbox. The Dreamcast is Sega&apos;s final home console, marking the end of the company&apos;s 18 years in the console market. In contrast to the expensive hardware of the unsuccessful Sega Saturn, the Dreamcast was designed to reduce costs with &quot;off-the-shelf&quot; components, including a Hitachi SH-4 CPU and an NEC PowerVR2 GPU. Released in Japan to a subdued reception, the Dreamcast enjoyed a successful U.S. launch backed by a large marketing campaign, but interest in the system steadily declined as Sony built hype for the upcoming PlayStation 2. Sales did not meet Sega&apos;s expectations despite several price cuts, and the company continued to incur significant financial losses. After a change in leadership, Sega discontinued the Dreamcast on March 31, 2001, withdrawing from the console business and restructuring itself as a third-party publisher. 9.13 million Dreamcast units were sold worldwide.</plot>
+  <platform>Sega Dreamcast</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>-L /storage/.kodi/userdata/addon_data/game.retroarch/cores/reicast_libretro.so -f -v &quot;$rom$&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra>-L /storage/.kodi/userdata/addon_data/game.retroarch/cores/redream_libretro.so -f -v &quot;$rom$&quot;</args_extra>
+  <ROM_path>/storage/emulators/roms/dreamcast/</ROM_path>
+  <ROM_ext>cdi|gdi|chd|cue</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/dreamcast</ROM_asset_path>
+  <Asset_Prefix>Dreamcast</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Dreamcast_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Dreamcast_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>EmulationStation</name>
+  <category>FRONTENDS</category>
+  <year>1978</year>
+  <genre />
+  <developer />
+  <rating />
+  <plot />
+  <platform>Unknown</platform>
+  <application>/storage/.kodi/addons/script.gamestarter/resources/bin/gamestarter.sh</application>
+  <args>emulationstation</args>
+  <args_extra />
+  <ROM_path />
+  <ROM_ext />
+  <ROM_asset_path>/storage/.kodi/userdata/addon_data/plugin.program.advanced.emulator.launcher/artworks</ROM_asset_path>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Game Boy</name>
+  <category>GAMESTARTER</category>
+  <year>1989</year>
+  <genre>Fourth generation console</genre>
+  <developer>Nintendo</developer>
+  <rating />
+  <plot>The Game Boy is an 8-bit handheld video game device developed and manufactured by Nintendo. It was released in Japan on April 21, 1989, in North America on July 31, 1989, and in Europe on September 28, 1990. It is the first handheld console in the Game Boy line, and was created by Gunpei Yokoi and Nintendo Researc &amp; Development 1 (the same staff who had designed the Game &amp; Watch series as well as several popular games for the Nintendo Entertainment System). Redesigned versions were released in 1996 and 1998, in the form of Game Boy Pocket, and Game Boy Light (Japan only), respectively.</plot>
+  <platform>Nintendo Game Boy</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>gambatte &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/gb/</ROM_path>
+  <ROM_ext>gb|zip|gbc</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/gb</ROM_asset_path>
+  <Asset_Prefix>Game Boy</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Game Boy_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Game Boy_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Game Boy Advance</name>
+  <category>GAMESTARTER</category>
+  <year>2001</year>
+  <genre>Sixth generation console</genre>
+  <developer>Nintendo</developer>
+  <rating />
+  <plot>The Game Boy Advance, often shortened to GBA, is a 32-bit handheld video game console developed, manufactured and marketed by Nintendo. It is the successor to the Game Boy Color. Nintendo&apos;s competitors in the handheld market were the Neo Geo Pocket Color, WonderSwan, GP32, Tapwave Zodiac, and the N-Gage. Despite the competitors&apos; best efforts, Nintendo maintained a majority market share with the Game Boy Advance. As of June 30, 2010, the Game Boy Advance series has sold 81.51 million units worldwide. Its successor, the Nintendo DS, was released in November 2004.</plot>
+  <platform>Nintendo Game Boy Advance</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>gpsp &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/gba/</ROM_path>
+  <ROM_ext>gba|zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/gba</ROM_asset_path>
+  <Asset_Prefix>Game Boy Advance</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Game Boy Advance_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Game Boy Advance_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Game Boy Color</name>
+  <category>GAMESTARTER</category>
+  <year>1998</year>
+  <genre>Fifth generation console</genre>
+  <developer>Nintendo</developer>
+  <rating />
+  <plot>The Game Boy Color, referred to as GBC, is a handheld game console manufactured by Nintendo. It was released on October 21, 1998 in Japan and was released in November of the same year in international markets. It is the successor of the Game Boy.&#10;The Game Boy Color, as suggested by the name, features a color screen, but no backlight. It is slightly thicker and taller than the Game Boy Pocket, which is a redesigned Game Boy released in 1996. As with the original Game Boy, it has an 8-bit processor and the custom Zilog Z80 central processing unit (CPU). The original name (with its American English spelling of &quot;color&quot;) remained unchanged even in markets where &quot;colour&quot; was the accepted English spelling.</plot>
+  <platform>Nintendo Game Boy Color</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>gambatte &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/gbc/</ROM_path>
+  <ROM_ext>gb|zip|gbc</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/gbc</ROM_asset_path>
+  <Asset_Prefix>Game Boy Color</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Game Boy Color_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Game Boy Color_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Game Gear</name>
+  <category>GAMESTARTER</category>
+  <year>1990</year>
+  <genre>Fourth generation console</genre>
+  <developer>SEGA</developer>
+  <rating />
+  <plot>The Game Gear is an 8-bit handheld game console released by Sega on October 6, 1990 in Japan, 1991 in North America and Europe, and Australia in 1992. The Game Gear primarily competed with Nintendo&apos;s Game Boy, the Atari Lynx and NEC&apos;s TurboExpress. The handheld shares much of its hardware with the Master System and is able to play its own titles as well as those of the Master System, the latter being made possible by the use of an adapter. Containing a full-color backlit screen with a landscape format, Sega positioned the Game Gear as a technologically superior handheld to the Game Boy.</plot>
+  <platform>SEGA Game Gear</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>genesis_plus_gx &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/gamegear/</ROM_path>
+  <ROM_ext>gg|zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/gamegear</ROM_asset_path>
+  <Asset_Prefix>Game Gear</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Game Gear_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Game Gear_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>MSX - MSX2</name>
+  <category>GAMESTARTER</category>
+  <year>1983</year>
+  <genre />
+  <developer>Microsoft Japan</developer>
+  <rating />
+  <plot>MSX is the name of a standardized home computer architecture, first announced by Microsoft on June 16, 1983,[1] and marketed by Kazuhiko Nishi, then Vice-president at Microsoft Japan and Director at ASCII Corporation. Microsoft conceived the project as an attempt to create unified standards among various hardware makers of the period.&#10;    Before the appearance and great success of Nintendo&apos;s Family Computer, MSX was the platform for which major Japanese game studios, such as Konami and Hudson Soft, produced video game titles. The Metal Gear series, for example, was originally written for MSX hardware.</plot>
+  <platform>Microsoft MSX / MSX2</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>bluemsx &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/msx/</ROM_path>
+  <ROM_ext>rom|mx1|mx2|col|dsk|zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/msx</ROM_asset_path>
+  <Asset_Prefix>MSX</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/MSX_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/MSX_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Magnavox Odyssey / Philips Videopac</name>
+  <category>GAMESTARTER</category>
+  <year>1978</year>
+  <genre>Second generation console</genre>
+  <developer>Magnavox/Philips</developer>
+  <rating />
+  <plot>The Magnavox Odyssey², known in Europe as the Philips Videopac G7000, in Brazil as the Philips Odyssey, in the United States and Canada as the Magnavox Odyssey² and the Philips Odyssey², and also by many other names, is a home video game console released in 1978.&#10;&#10;In the early 1970s, Magnavox was an innovator in the home video game industry. They succeeded in bringing the first home video game system to market, the Odyssey, which was quickly followed by a number of later models, each with a few technological improvements (Magnavox Odyssey series). In 1978, Magnavox, now a subsidiary of North American Philips, released the Odyssey², its new second-generation video game console.</plot>
+  <platform>Magnavox Odyssey / Philips Videopac</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>o2em &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/videopac/</ROM_path>
+  <ROM_ext>bin|zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/videopac</ROM_asset_path>
+  <Asset_Prefix>Magnavox Odyssey</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Magnavox Odyssey_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Magnavox Odyssey_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Master System</name>
+  <category>GAMESTARTER</category>
+  <year>1985</year>
+  <genre>Third generation console</genre>
+  <developer>SEGA</developer>
+  <rating />
+  <plot>The Sega Master System is a third-generation home video game console that was manufactured by Sega. It was originally released in 1985 as the Sega Mark III in Japan. After being redesigned prior to its North American launch, the console was renamed Master System and released in 1986 in North America, 1987 in Europe, and 1989 in Brazil. The redesigned Master System was also released in Japan in 1987. Both the Mark III and the original Master System models could play with both cartridges (or &quot;Mega Cartridges&quot;, as they were officially called) and the credit card-sized Sega Cards, which retailed at lower prices than cartridges but had lower storage capacity; the Master System II and later models did not have the card slot. The Master System also featured accessories such as a light gun and 3D glasses which were designed to work with a range of specially coded games.</plot>
+  <platform>Sega Master System/Mark III</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>picodrive &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/mastersystem/</ROM_path>
+  <ROM_ext>sms|zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/mastersystem</ROM_asset_path>
+  <Asset_Prefix>Master System</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Master System_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Master System_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Mega Drive - Mega CD</name>
+  <category>GAMESTARTER</category>
+  <year>1988</year>
+  <genre>Fourth generation console</genre>
+  <developer>SEGA</developer>
+  <rating />
+  <plot>The Sega Genesis, known as the Mega Drive in most regions outside North America, is a 16-bit home video game console which was developed and sold by Sega Enterprises, Ltd. The Genesis was Sega&apos;s third console and the successor to the Master System. Sega first released the console as the Mega Drive in Japan in 1988, followed by a North American debut under the Genesis moniker in 1989. In 1990, the console was distributed as the Mega Drive by Virgin Mastertronic in Europe.&#10;Designed by an R&amp;D team supervised by Hideki Sato and Masami Ishikawa, the hardware was adapted from Sega&apos;s System 16 arcade board, centered on a Motorola 68000 processor as a primary CPU and a Zilog Z80 as a secondary processor. The system supports a library of more than 900 games created both by Sega and a wide array of third-party publishers and delivered on ROM-based cartridges. It can play Master System games when the separately sold Power Base Converter is inserted.&#10;&#10;The Sega CD, released as the Mega-CD most regions outside North America, is a CD-ROM accessory for the Sega Genesis video game console designed and produced by Sega as part of the fourth generation of video game consoles. The add-on was released on December 12, 1991 in Japan, October 15, 1992 in North America, and 1993 in Europe. The Sega CD lets the user play CD-based games and adds extra hardware functionality, such as a faster central processing unit and graphic enhancements. It can also play audio CDs and CD+G discs.</plot>
+  <platform>Sega Mega Drive / Mega CD</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>genesis_plus_gx &quot;$rom$&quot;</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/megadrive/</ROM_path>
+  <ROM_ext>smd|md|bin|iso|zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/megadrive</ROM_asset_path>
+  <Asset_Prefix>Mega Drive</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Mega Drive_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Mega Drive_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>NES</name>
+  <category>GAMESTARTER</category>
+  <year>1983</year>
+  <genre>Third generation console</genre>
+  <developer>Nintendo</developer>
+  <rating />
+  <plot>The Nintendo Entertainment System (also abbreviated as NES) is an 8-bit home video game console that was developed and manufactured by Nintendo. It was initially released in Japan as the Family Computer (also known by the portmanteau abbreviation Famicom and abbreviated as FC) on July 15, 1983, and was later released in North America during 1985, in Europe during 1986, and Australia in 1987. In South Korea, it was known as the Hyundai Comboy and was distributed by SK Hynix which then was known as Hyundai Electronics. It was succeeded by the Super Nintendo Entertainment System.</plot>
+  <platform>Nintendo Entertainment System</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>fceumm &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/nes/</ROM_path>
+  <ROM_ext>nes|zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/nes</ROM_asset_path>
+  <Asset_Prefix>NES</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/NES_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/NES_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Neo Geo</name>
+  <category>GAMESTARTER</category>
+  <year>1990</year>
+  <genre>Fourth generation console</genre>
+  <developer>SNK</developer>
+  <rating />
+  <plot>The Neo Geo (Japanese: ネオジオ Hepburn: Neojio), stylised as NEO・GEO, also written as NEOGEO, is a cartridge-based arcade system board and fourth-generation home video game console released on April 26, 1990, by Japanese game company SNK Corporation. It was the first system in SNK&apos;s Neo Geo family. The Neo Geo was marketed as 24-bit; its CPU is technically a parallel processing 16/32-bit 68000-based system with an 8/16-bit Z80 coprocessor, while its GPU chipset has a 24-bit graphics data bus.&#10;&#10;The Neo Geo originally launched as the MVS (Multi Video System) coin-operated arcade machine. The MVS offers owners the ability to put up to six different cartridges into a single cabinet, a unique feature that was also a key economic consideration for operators with limited floorspace, as well as saving money in the long-run. With its games stored on self-contained cartridges, a game cabinet can be exchanged for a different game title by swapping the game&apos;s ROM-cartridge and cabinet artwork. A home console version was also made, called AES (Advanced Entertainment System). It was originally launched as a rental console for video game stores in Japan (called Neo Geo Rental System), with its high price causing SNK not to release it for home use - this was later reversed due to high demand and it came into the market as a luxury console. The AES had the same raw specs as the MVS and had full compatibility, thus managed to bring a true arcade experience to home users. As of 2013 it was the most expensive home video game console ever released, costing US$1,125 adjusted for inflation. The Neo Geo was revived along with the brand overall in December 2012 through the introduction of the Neo Geo X handheld and home system.</plot>
+  <platform>Neo Geo</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>fbalpha &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/neogeo/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/neogeo</ROM_asset_path>
+  <Asset_Prefix>Neo Geo</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Neo Geo_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Neo Geo_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Nintendo 64</name>
+  <category>GAMESTARTER</category>
+  <year>1996</year>
+  <genre>Fifth generation console</genre>
+  <developer>Nintendo</developer>
+  <rating />
+  <plot>The Nintendo 64 (Japanese: ニンテンドー64 Hepburn: Nintendō Rokujūyon), stylized as NINTENDO64 and often referred to as N64, is Nintendo&apos;s third home video game console for the international market. Named for its 64-bit central processing unit, it was released in June 1996 in Japan, September 1996 in North America, March 1997 in Europe and Australia, September 1997 in France and December 1997 in Brazil. It is the industry&apos;s last major home console to use the cartridge as its primary storage format, although current handheld systems (such as the PlayStation Vita and Nintendo 3DS) also use cartridges. While the Nintendo 64 was succeeded by Nintendo&apos;s MiniDVD-based GameCube in November 2001, the consoles remained available until the system was retired in late 2003.</plot>
+  <platform>Nintendo 64</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>mupen64plus &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/n64/</ROM_path>
+  <ROM_ext>v64|n64|z64|zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/n64</ROM_asset_path>
+  <Asset_Prefix>Nintendo 64</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Nintendo 64_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Nintendo 64_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Nintendo DS</name>
+  <category>GAMESTARTER</category>
+  <year>2004</year>
+  <genre>Seventh generation console</genre>
+  <developer>Nintendo</developer>
+  <rating />
+  <plot>The Nintendo DS (ニンテンドーDS Nintendō DS) is a dual-screen handheld game console developed and released by Nintendo. The device went on sale in North America on November 21, 2004. The DS, short for &quot;Developers&apos; System&quot; or &quot;Dual Screen&quot;, introduced distinctive new features to handheld gaming: two LCD screens working in tandem (the bottom one featuring a touchscreen), a built-in microphone, and support for wireless connectivity. Both screens are encompassed within a clamshell design similar to the Game Boy Advance SP. The Nintendo DS also features the ability for multiple DS consoles to directly interact with each other over Wi-Fi within a short range without the need to connect to an existing wireless network. Alternatively, they could interact online using the now-closed Nintendo Wi-Fi Connection service. Its main competitor was Sony&apos;s PlayStation Portable as part of the seventh generation era.</plot>
+  <platform>Nintendo DS</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>desmume &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/nds/</ROM_path>
+  <ROM_ext>zip|nds</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/nds</ROM_asset_path>
+  <Asset_Prefix>Nintendo DS</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Nintendo DS_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Nintendo DS_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Nintendo Gamecube</name>
+  <category>GAMESTARTER</category>
+  <year>2001</year>
+  <genre>Sixth generation console</genre>
+  <developer>Nintendo</developer>
+  <rating />
+  <plot>The GameCube is a home video game console released by Nintendo in Japan on September 14, 2001; in North America on November 18, 2001; in Europe on May 3, 2002; and in Australia on May 17, 2002. The sixth-generation console is the successor to the Nintendo 64 and competed with Sony Computer Entertainment&apos;s PlayStation 2 and Microsoft&apos;s Xbox. The GameCube is the first Nintendo console to use optical discs as its primary storage medium. The discs are similar to the miniDVD format; as a result of their smaller size and the console&apos;s small disc compartment, the system was not designed to play standard DVDs or audio CDs. The console supports online gaming for a small number of titles via the broadband or modem adapter and connects to the Game Boy Advance via the link cable, allowing players to access exclusive in-game features using the handheld as a second screen and controller.</plot>
+  <platform>Nintendo Gamecube</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>dolphin &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/gc</ROM_path>
+  <ROM_ext>iso|gcm</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/gc</ROM_asset_path>
+  <Asset_Prefix>Nintendo Gamecube</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Nintendo GameCube_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Nintendo GameCube_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Nintendo SNES</name>
+  <category>GAMESTARTER</category>
+  <year>1990</year>
+  <genre>Fourth generation console</genre>
+  <developer>Nintendo</developer>
+  <rating />
+  <plot>The Super Nintendo Entertainment System (officially abbreviated the Super NES or SNES, and commonly shortened to Super Nintendo) is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and South Korea, 1991 in North America, 1992 in Europe and Australasia (Oceania), and 1993 in South America. In Japan, the system is called the Super Famicom, or SFC for short.&#10;The SNES is Nintendo&apos;s second home console, following the Nintendo Entertainment System (NES). The console introduced advanced graphics and sound capabilities compared with other consoles at the time. Additionally, development of a variety of enhancement chips (which were integrated on game circuit boards) helped to keep it competitive in the marketplace.</plot>
+  <platform>Nintendo SNES</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>snes9x2010 &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/snes/</ROM_path>
+  <ROM_ext>smc|sfc|zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/snes</ROM_asset_path>
+  <Asset_Prefix>SNES</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/SNES_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/SNES_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller>/storage/emulators/ael-assets/SNES_controller.jpg</s_controller>
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Nintendo Wii</name>
+  <category>GAMESTARTER</category>
+  <year>2006</year>
+  <genre>Seventh generation console</genre>
+  <developer>Nintendo</developer>
+  <rating />
+  <plot>The Wii (WEE) is a home video game console released by Nintendo on November 19, 2006. As a seventh-generation console, the Wii competed with Microsoft&apos;s Xbox 360 and Sony&apos;s PlayStation 3. Nintendo states that its console targets a broader demographic than that of the two others. As of the first quarter of 2012, the Wii leads its generation over PlayStation 3 and Xbox 360 in worldwide sales, with more than 101 million units sold; in December 2009, the console broke the sales record for a single month in the United States. The Wii introduced the Wii Remote controller, which can be used as a handheld pointing device and which detects movement in three dimensions. Another notable feature of the console is the now defunct WiiConnect24, which enabled it to receive messages and updates over the Internet while in standby mode. Like other seventh-generation consoles, it features a game download service, called &quot;Virtual Console&quot;, which features emulated games from past systems.</plot>
+  <platform>Nintendo Wii</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>dolphin &quot;$rom$&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra>-L /home/kodi/bin/libretro/dolphin_libretro.so -f -v &quot;$rom$&quot; $categoryID$ $launcherID$ $romID$</args_extra>
+  <ROM_path>/storage/emulators/roms/wii/</ROM_path>
+  <ROM_ext>iso</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/wii</ROM_asset_path>
+  <Asset_Prefix>Wii</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Wii_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Wii_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller>/storage/emulators/ael-assets/Wii_controller.jpg</s_controller>
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>PC Engine - PC Engine CD</name>
+  <category>GAMESTARTER</category>
+  <year>1987</year>
+  <genre>Fourth generation console</genre>
+  <developer>NEC</developer>
+  <rating />
+  <plot>The TurboGrafx-16 Entertainment SuperSystem, known in Japan and in France as the PC Engine (PCエンジン Pī Shī Enjin), is a home video game console joint-developed by Hudson Soft and NEC, released in Japan on October 30, 1987, in the United States on August 29, 1989, and in France on November 22, 1989. It was the first console released in the 16-bit era, albeit still utilizing an 8-bit CPU. Originally intended to compete with the Nintendo Entertainment System (NES), it ended up competing with the Sega Genesis, and later on the Super NES.&#10;    &#10;The TurboGrafx-16 was the first video game console to have a CD-ROM peripheral, and first device ever to use CD-ROM as a storage medium for video games. NEC released the CD-ROM² (シーディーロムロム Shī Dī Romu Romu?, officially pronounced &quot;CD-ROM-ROM&quot;) in Japan on December 4, 1988, and released the TurboGrafx-CD in the United States on August 1, 1990.</plot>
+  <platform>NEC PC Engine/TurboGrafx 16</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>mednafen_pce_fast &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/pcengine/</ROM_path>
+  <ROM_ext>pce|cue</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/pcengine</ROM_asset_path>
+  <Asset_Prefix>PC Engine</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/PC Engine_fanart_3.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/PC Engine_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>PC Ports</name>
+  <category>GAMESTARTER</category>
+  <year />
+  <genre>Computer Game Ports</genre>
+  <developer />
+  <rating />
+  <plot />
+  <platform>PC Ports</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>ports &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/ports/</ROM_path>
+  <ROM_ext>sh</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/ports</ROM_asset_path>
+  <Asset_Prefix>PC Ports</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/PC Ports_fanart1.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/PC Ports_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>PSP</name>
+  <category>GAMESTARTER</category>
+  <year>2004</year>
+  <genre>Seventh generation console</genre>
+  <developer>SONY</developer>
+  <rating />
+  <plot>The PlayStation Portable (PSP) is a handheld game console developed by Sony. Development of the console was announced during E3 2003, and it was unveiled on May 11, 2004, at a Sony press conference before E3 2004. The system was released in Japan on December 12, 2004, in North America on March 24, 2005, and in the PAL region on September 1, 2005. It primarily competed with the Nintendo DS, as part of the seventh generation of video games.&#10;&#10;The PlayStation Portable became the most powerful portable system when launched, just after the Nintendo DS in 2004. It was the first real competitor to Nintendo&apos;s handheld domination, where many challengers, such as SNK&apos;s Neo Geo Pocket and Nokia&apos;s N-Gage, failed. Its GPU encompassed high-end graphics on a handheld, while its 4.3 inch viewing screen and multi-media capabilities, such as its video player and TV tuner, made the PlayStation Portable a major mobile entertainment device at the time. It also features connectivity with the PlayStation 3, other PSPs and the Internet. It is the only handheld console to use an optical disc format, Universal Media Disc (UMD), as its primary storage medium.</plot>
+  <platform>Sony PSP</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>ppsspp &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/psp/</ROM_path>
+  <ROM_ext>cso|iso</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/psp</ROM_asset_path>
+  <Asset_Prefix>PSP</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/PSP_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/PSP_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Panasonic 3DO</name>
+  <category>GAMESTARTER</category>
+  <year>1993</year>
+  <genre>Fifth generation console</genre>
+  <developer>Panasonic</developer>
+  <rating />
+  <plot>The 3DO Interactive Multiplayer, often called simply the 3DO, is a home video game console platform developed by The 3DO Company. Conceived by entrepreneur and Electronic Arts founder Trip Hawkins, the 3DO was not a console manufactured by the company itself, but a series of specifications, originally designed by Dave Needle and R. J. Mical of New Technologies Group, that could be licensed by third parties. Panasonic produced the first models in 1993, and further renditions of the hardware were released in 1994 by Sanyo and GoldStar (now LG Corp). Despite a highly promoted launch (including being named Time magazine&apos;s &quot;1993 Product of the Year&quot;) and a host of cutting-edge technologies, the 3DO&apos;s high price and an oversaturated console market prevented the system from achieving success comparable to veteran competitors Sega and Nintendo. As a result, it was discontinued in late 1996, three years after its first release.</plot>
+  <platform>Panaconic 3DO</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>4do &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/3do/</ROM_path>
+  <ROM_ext>iso|cue</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/3do</ROM_asset_path>
+  <Asset_Prefix>Panasonic 3DO</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Panasonic 3DO_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/Panasonic 3DO_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>PlayStation</name>
+  <category>GAMESTARTER</category>
+  <year>2004</year>
+  <genre>Fifth generation console</genre>
+  <developer>SONY</developer>
+  <rating />
+  <plot>The PlayStation (Japanese: プレイステーション Hepburn: Pureisutēshon) (officially abbreviated as PS, and commonly known as the PS1 or PSX) is a home video game console developed and marketed by Sony Computer Entertainment. The console was released on 3 December 1994 in Japan, 9 September 1995 in North America, 29 September 1995 in Europe, 15 November 1995 in Australia, and for Korea in 1996. The console was the first of the PlayStation lineup of home video game consoles. It primarily competed with the Nintendo 64 and the Sega Saturn as part of the fifth generation of video game consoles.</plot>
+  <platform>Sony PlayStation</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>pcsx_rearmed &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/psx/</ROM_path>
+  <ROM_ext>bin|img|pbp|PBP|IMG|BIN</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/psx</ROM_asset_path>
+  <Asset_Prefix>PlayStation</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/PlayStation_fanart1.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/PlayStation_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Retroarch</name>
+  <category>FRONTENDS</category>
+  <year>1978</year>
+  <genre />
+  <developer />
+  <rating />
+  <plot />
+  <platform>Unknown</platform>
+  <application>/storage/.kodi/addons/script.gamestarter/resources/bin/gamestarter.sh</application>
+  <args>retroarch</args>
+  <args_extra />
+  <ROM_path />
+  <ROM_ext />
+  <ROM_asset_path>/storage/.kodi/userdata/addon_data/plugin.program.advanced.emulator.launcher/artworks</ROM_asset_path>
+  <Asset_Prefix />
+  <s_icon />
+  <s_fanart />
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>SCUMMVM</name>
+  <category>GAMESTARTER</category>
+  <year>2001</year>
+  <genre />
+  <developer />
+  <rating />
+  <plot />
+  <platform />
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>scummvm</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/scummvm/</ROM_path>
+  <ROM_ext>sh</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/scummvm</ROM_asset_path>
+  <Asset_Prefix>PC Ports</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/ScummVM_fanart.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/PC Ports_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>Sega Saturn</name>
+  <category>GAMESTARTER</category>
+  <year>1994</year>
+  <genre>Fifth generation console</genre>
+  <developer>SEGA</developer>
+  <rating />
+  <plot>The Sega Saturn is a 32-bit fifth-generation home video game console that was developed by Sega and released on November 22, 1994 in Japan, May 11, 1995 in North America, and July 8, 1995 in Europe as the successor to the successful Sega Genesis. The Saturn has a dual-CPU architecture and eight processors. Its games are in CD-ROM format, and its game library contains several arcade ports as well as original titles. Development of the Saturn began in 1992, the same year Sega&apos;s groundbreaking 3D Model 1 arcade hardware debuted. Designed around a new CPU from Japanese electronics company Hitachi, another video display processor was incorporated into the system&apos;s design in early 1994 to better compete with Sony&apos;s forthcoming PlayStation. The Saturn was initially successful in Japan, but failed to sell in large numbers in the United States after its surprise May 1995 launch, four months before its scheduled release date. After the debut of the Nintendo 64 in late 1996, the Saturn rapidly lost market share in the U.S., where it was discontinued in 1998. Having sold 9.26 million units worldwide, the Saturn is considered a commercial failure. The failure of Sega&apos;s development teams to release a game in the Sonic the Hedgehog series, known in development as Sonic X-treme, has been considered a factor in the console&apos;s poor performance.</plot>
+  <platform>Sega Saturn</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>yabause &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/segasaturn/</ROM_path>
+  <ROM_ext>zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/segasaturn</ROM_asset_path>
+  <Asset_Prefix>Arcade - FBA</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/Saturn_fanart_2.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller>/storage/emulators/ael-assets/Saturn_controller.jpg</s_controller>
+  <s_trailer />
+</launcher>
+<launcher>
+  <name>ZX Spectrum</name>
+  <category>GAMESTARTER</category>
+  <year>1990</year>
+  <genre>Fourth generation console</genre>
+  <developer>Sinclair</developer>
+  <rating />
+  <plot>The ZX Spectrum (UK: /zɛd ɛks ˈspɛktrəm/) is an 8-bit personal home computer released in the United Kingdom in 1982 by Sinclair Research. It was manufactured in Dundee, Scotland, in the now closed Timex factory.&#10;  The Spectrum was released as eight different models, ranging from the entry level with 16 KB RAM released in 1982 to the ZX Spectrum +3 with 128 KB RAM and built in floppy disk drive in 1987; together they sold in excess of 5 million units worldwide (not counting clones).[6]&#10;The Spectrum was among the first mainstream-audience home computers in the UK, similar in significance to the Commodore 64 in the USA. The introduction of the ZX Spectrum led to a boom in companies producing software and hardware for the machine,[7] the effects of which are still seen;[1] some credit it as the machine which launched the UK IT industry.[8] Licensing deals and clones followed, and earned Clive Sinclair a knighthood for &quot;services to British industry&quot;.</plot>
+  <platform>Sinclair ZX Spectrum</platform>
+  <application>/storage/.kodi/addons/game.retroarch/addon.sh</application>
+  <args>fuse &quot;%rom%&quot; $categoryID$ $launcherID$ $romID$</args>
+  <args_extra />
+  <ROM_path>/storage/emulators/roms/zxspectrum/</ROM_path>
+  <ROM_ext>tzx|Z80|z80|zip</ROM_ext>
+  <ROM_asset_path>/storage/emulators/ael-assets/zxspectrum</ROM_asset_path>
+  <Asset_Prefix>ZX Spectrum</Asset_Prefix>
+  <s_icon>/storage/emulators/ael-assets/ZX Spectrum_icon.jpg</s_icon>
+  <s_fanart>/storage/emulators/ael-assets/ZX Spectrum_fanart.jpg</s_fanart>
+  <s_banner />
+  <s_poster />
+  <s_clearlogo />
+  <s_controller />
+  <s_trailer />
+</launcher>
+</advanced_emulator_launcher_configuration>

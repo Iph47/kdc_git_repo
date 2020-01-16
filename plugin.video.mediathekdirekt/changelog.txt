@@ -1,0 +1,32 @@
+0.0.1
+- Inital Release
+0.0.2
+- Added a numeric Dialog for Dates
+- Added "Today's/Yesterday's Shows"
+0.0.3
+-Added Setting to show Topics directly
+-Fixed Topic sorting
+-Added "All Topics" in Main Menu
+0.0.4
+-Added ContentType to show Video meta data where possible
+0.0.5
+-Fixed search via numeric Dialog for dates with zero-padding.
+0.0.6
+-Fixed encoding error when trying to search with special characters.
+0.0.7
+-Added context menu button "download video" to video. It allows to download the choosen video to a local folder.
+-Added Setting to hide shows with audio description.
+-Added airdate of a show to the beginning of the video description.
+0.0.8
+-Duration is now shown correctly in media lists
+-Every media list is now sortable by default, label, date, play count, duration or genre in abscending or descending order.
+0.0.9
+-Added setting "Play videos in best possible quality". If activated the addon now detects the best Stream Quality (mostly HD).
+0.0.10
+-ARD-Streams can now be played in HD, too.
+0.0.11
+-Changed source web address to https.
+0.0.12
+- Fixed and updated getBestQuality function to detect new and more HD streams.
+0.0.13
+- Fixed data update error because of gzip compression. Now uses script.module.requests to download and decompress data file.

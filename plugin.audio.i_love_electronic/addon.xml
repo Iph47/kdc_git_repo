@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.i_love_electronic"
+    name="I Love Electronic" version="2019.10.10"
+	provider-name="Ctrl_Esc">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+       <summary>Radio Online Stream</summary>
+        <description>Hirschmilch Psytrance https://hirschmilch.de/electronic</description>
+        <platform>all</platform>
+        <language>DE</language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>https://hirschmilch.de/</website>
+        <source></source>
+        <email></email>
+    </extension>
+</addon>

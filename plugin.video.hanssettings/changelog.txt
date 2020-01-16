@@ -1,0 +1,35 @@
+﻿﻿Version 2.2.3
+* Fix the 404 Not Found Error
+
+Version 2.2.2
+* add comment and fix processbar, refactor code and renames in code
+
+Version 2.2.0
+* Default content = video.
+
+Version 2.1.0
+* wrong context was set. This was a problem in Kodi 17.6
+
+Version 2.0.0
+* add audio stream.
+
+Version 1.0.6
+* pull request disapproved, the download of github files restored.
+
+Version 1.0.5
+* Review changes after pull-request
+
+Version 1.0.4
+* Processbar
+
+Version 1.0.3
+* Description from files.
+
+Version 1.0.2
+* xbmcswift2 is gone.
+
+Version 1.0.1
+* Fixxes 302 Redirects
+
+Version 1.0.0
+* Initial version

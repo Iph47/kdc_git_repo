@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="resource.uisounds.ctrl_esc" version="1.0.0" name="Control Escape UI Sounds" provider-name="Ctrl_Esc">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Ctrl_Esc GUI Sounds</summary>
+    <description lang="en">Ctrl_Esc GUI Sounds</description>
+    <platform>all</platform>
+  </extension>
+</addon>
