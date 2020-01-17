@@ -10,7 +10,16 @@
     </extension>
     <extension point="xbmc.addon.metadata">
        <summary>Radio Online Stream</summary>
-        <description>Hirschmilch Chillout https://hirschmilch.de/chillout</description>
+        <description>Hirschmilch Chillout 
+https://hirschmilch.de/
+
+
+Visit us:
+
+RaspberryPi_Kodi_Deutschland_Community
+https://www.facebook.com/groups/raspikdc
+
+</description>
         <platform>all</platform>
         <language>DE</language>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>

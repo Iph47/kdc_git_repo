@@ -10,7 +10,17 @@
     </extension>
     <extension point="xbmc.addon.metadata">
        <summary>Radio Online Stream</summary>
-        <description>Hirschmilch Psytrance https://hirschmilch.de/electronic</description>
+        <description>Hirschmilch Psytrance 
+
+https://hirschmilch.de/
+
+
+Visit us:
+
+RaspberryPi_Kodi_Deutschland_Community
+https://www.facebook.com/groups/raspikdc
+
+</description>
         <platform>all</platform>
         <language>DE</language>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
