@@ -233,6 +233,24 @@
 
 
 <item>
+<title>[B][COLOR antiquewhite]=== [B][COLOR lime] Net [COLOR lime] TV [COLOR antiquewhite]=== [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<jsonrpc>plugin://script.module.fvg/list_channels/25</jsonrpc>
+<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
+<info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite]=== [B][COLOR lime] UKTV Now [COLOR lime] TV [COLOR antiquewhite]=== [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<jsonrpc>plugin://script.module.wvg</jsonrpc>
+<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
+<info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
 <title>[B][COLOR antiquewhite]=== [B][COLOR lime] Swift [COLOR lime] World TV [COLOR antiquewhite]=== [/COLOR][/B]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
 <jsonrpc>plugin://script.module.limitless-swiftstreamz</jsonrpc>
@@ -430,7 +448,7 @@
 <item>
 <title>[B][COLOR antiquewhite]  "lorem jsonrpc" [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
-<jsonrpc>plugin://</jsonrpc>
+<jsonrpc></jsonrpc>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
 <info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
