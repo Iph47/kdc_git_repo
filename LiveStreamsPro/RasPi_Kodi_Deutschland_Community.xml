@@ -233,9 +233,18 @@
 
 
 <item>
-<title>[B][COLOR antiquewhite]=== [B][COLOR lime] Net [COLOR lime] TV [COLOR antiquewhite]=== [/B][/COLOR]<title>
+<title>[B][COLOR antiquewhite]=== [B][COLOR lime] LiveNet [COLOR lime] TV Germany [COLOR antiquewhite]=== [/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
 <jsonrpc>plugin://script.module.fvg/list_channels/25</jsonrpc>
+<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
+<info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
+<title>[B][COLOR antiquewhite]=== [B][COLOR lime] LiveNet [COLOR lime] TV World [COLOR antiquewhite]=== [/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<jsonrpc>plugin://script.module.fvg</jsonrpc>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
 <info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
