@@ -8,9 +8,13 @@ script.module.limitless-tvtap
 script.module.7of9-motherless
 script.module.7of9-videodevil
 script.module.7of9-pirateslife4me
+script.module.fvg
+script.module.wvg
 
 
-download the Kodi-Deutschland-Community.xml 
+
+--------------------------
+download the RasPi_Kodi_Deutschland_Community.xml 
 and download
 the Sport.xml 
 and transfer / kick it on your kodi system in this folder:
