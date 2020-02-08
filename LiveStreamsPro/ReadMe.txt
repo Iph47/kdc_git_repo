@@ -17,13 +17,19 @@ script.module.wvg
 download the RasPi_Kodi_Deutschland_Community.xml 
 and download
 the Sport.xml 
-and transfer / kick it on your kodi system in this folder:
+and kn1.m3u
+and kn2.m3u
 
+and transfer / kick it on your kodi system in this folder!!!!!!!!!!!!!!!!!!
 
 /storage/.kodi/userdata/playlists/video/
 
 
-and open 
+-----------------------------------------------------------------------------
+
+then install livestreamspro addon
+and open.
+
 in livestreamspro addon options / add source / choose source type (choose file insteet of url!!!)
 then 
 choose the copied file source:
@@ -34,7 +40,7 @@ add source and open with LiveStreamsPro addon!
 
 
 
-have4un!
+and have4un!
 
 ------ Raspberry Pi Kodi Deutschland Community ------
 https://www.facebook.com/groups/raspikdc

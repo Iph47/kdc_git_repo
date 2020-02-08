@@ -26,69 +26,22 @@
 <item>
 
 
+<item>
+<title>[B][COLOR antiquewhite]===  Free [COLOR darkred] TV Channels 1 [COLOR antiquewhite]===[/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<externallink>/storage/.kodi/userdata/playlists/video/kn1.m3u</externallink>
+<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
+<info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
 
 
 <item>
-<title>[B][COLOR darkred]===[/B][/COLOR][B][COLOR antiquewhite]  Control Escape [/B][/COLOR][B][COLOR darkred] TV [B][COLOR antiquewhite]Script [B][COLOR darkred]===[/B][/COLOR]<title>
-<thumbnail>ext</thumbnail>
+<title>[B][COLOR antiquewhite]===  Free [COLOR darkred] TV Channels 2 [COLOR antiquewhite]===[/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<externallink>/storage/.kodi/userdata/playlists/video/kn2.m3u</externallink>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
-
-
-<link>$doregex[leg2]</link>
-
-<regex>
-<name>leg2</name>
-<listrepeat><![CDATA[
-<title>[leg2.param2]</title>
-<thumbnail>http://i.imgur.com/GAbvzTU.pn</thumbnail>
-<fanart>http://i.imgur.com/GAbvzTU.pn</fanart>
-
-<link>$doregex[leg]</link>
-]]></listrepeat>
-<expres><![CDATA[taxonomy.+?href="(.+?)">(.+?)<]]></expres>
-<page>https://dailyiptvlist.com</page>
-</regex>
-
-
-
-<regex>
-<name>leg</name>
-<listrepeat><![CDATA[
-<title>[leg.param2]</title>
-<link>$doregex[list]</link>
-<thumbnail>http://i.imgur.com/GAbvzTU.pn</thumbnail>
-<fanart>http://i.imgur.com/GAbvzTU.pn</fanart>
-
-]]></listrepeat>
-<expres><![CDATA[(?s)<h2 class="post-title".+?href="https(.+?)">(.+?)</a>]]></expres>
-<page>[leg2.param1]</page>
-</regex>
-
-
-
-
-<regex>
-<name>list</name>
-<listrepeat><![CDATA[
-<title>[list.param2]</title>
-<thumbnail>http://i.imgur.com/GAbvzTU.pg</thumbnail>
-<fanart>http://i.imgur.com/GAbvzTU.pn</fanart>
-
-<link>NA</link>
-<externallink>[list.param1]$$TSDOWNLOADER$$</externallink>
-]]></listrepeat>
-<expres><![CDATA[<a href="(.*?)">Download(.*?)</a>]]></expres>
-<page>http[leg.param1]</page>
-<thumbnail>http://i.imgur.com/QS3c3hk.pg</thumbnail>
-<fanart>http://i.imgur.com/zGAi8bi.pg</fanart>
-</regex>
-<fanart>http://i.imgur.com/GAbvzTU.pg</fanart>
 <info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
-</item>
-
-
-
-
+<item>
 
 
 <item>
@@ -395,6 +348,15 @@
 <item>
 
 
+<item>
+<title>[B][COLOR antiquewhite]===  Zeus [COLOR darkred] TV [COLOR antiquewhite]===[/COLOR][/B]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<externallink>https://pastebin.com/raw/XSBCUPcH</externallink>
+<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
+<info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
     <item>
         <title>[B][COLOR antiquewhite]===  Davor [COLOR darkred] TV [COLOR antiquewhite]===[/COLOR][/B]<title>
 		<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
@@ -459,7 +421,6 @@
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
 <info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
-
 
 
 <item>
