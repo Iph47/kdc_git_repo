@@ -27,18 +27,18 @@
 
 
 <item>
-<title>[B][COLOR antiquewhite]===  Free [COLOR darkred] TV Channels 1 [COLOR antiquewhite]===[/B][/COLOR]<title>
+<title>[B][COLOR antiquewhite]===  Free German [COLOR darkred] TV & Radio [COLOR antiquewhite]===[/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
-<externallink>/storage/.kodi/userdata/playlists/video/kn1.m3u</externallink>
+<externallink>https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/iptv/kodi/kodi.m3u</externallink>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
 <info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
 
 
 <item>
-<title>[B][COLOR antiquewhite]===  Free [COLOR darkred] TV Channels 2 [COLOR antiquewhite]===[/B][/COLOR]<title>
+<title>[B][COLOR antiquewhite]===  Free German [COLOR darkred] TV [COLOR antiquewhite]===[/B][/COLOR]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
-<externallink>/storage/.kodi/userdata/playlists/video/kn2.m3u</externallink>
+<externallink>https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/iptv/kodi/kodi_tv.m3u</externallink>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
 <info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
