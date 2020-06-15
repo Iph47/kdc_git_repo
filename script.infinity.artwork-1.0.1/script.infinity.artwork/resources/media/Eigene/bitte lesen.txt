@@ -1,0 +1,2 @@
+Dieser Ordner muss mit Euren selbst erstellten Icons gefüllt werden
+Die Auflösung sollte dabei 512x512 Pixel haben

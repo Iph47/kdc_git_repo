@@ -1,0 +1,127 @@
+﻿  Den Changelog zu plugin.video.infinity~nightly bitte auch in der "whatsnew.text" eintragen.
+  Dieser kann dann nach einem nightly Update direkt in Infinity angeschaut werden.
+
+
+[B]Infinity 1.1.2[/B]
+- Fix trailer.py
+
+
+[B]Infinity 1.1.1[/B]
+- Parser.py hinzugefügt (...\plugin.video.infinity\resources\lib)
+- Kinoger fix. Parsing teil hinzugefügt, sodass die Hoster secvideo und fvs wieder in 1080 funktionieren.
+
+
+[B]Infinity 1.0.9[/B]
+- Kinoger aus DEFEKT entfernt und wieder hinzugefügt
+- Vavoo hinzugefügt (benötigt aber Fix)
+- Settings wiederhergestellt (s.to-Mehrfach-Accounts)
+
+[B]Infinity 1.0.9~nightly1[/B]
+- Update netflix (Anpassung Castagnal Repo)
+- Kinox.to Domains ohne Cloudflare hinzugefügt
+- Auto Update deaktiviert
+- Filme "Im Kino" überarbeitet
+
+[B]Infinity 1.0.8[/B]
+- UpdateManger gefixt (Danke an Kasi45 für die Source)
+- Auto Update Funktion bei Kodistart hinzugefügt
+- defekte Indexseiten Einträge entfernt
+  cinemaxx, iload, kinoger, movie4k, 
+- Kinox.one hinzugefügt
+- Fix HDFilme
+
+[B]Infinity 1.0.7[/B]
+- Neuer URLResolver API Key
+
+[B]Infinity 1.0.6[/B]
+- Update episodes.py (neuer TVDB-API Key)
+- Fix Serienstream
+- defekte/offline Seiten entfernt (proxer)
+- Neuer TMDB API Key (settings.xml und episodes.py)
+  Episodes.py verwendet den API Key von metadata.tvshows.themoviedb.org
+  Für den API Key in der settings.xml wurde ein neues Konto auf TMDB erstellt
+  
+[B]Infinity 1.0.5[/B]
+- Update sources.py (Änderung von == auf =, in Zeilen 137, 141, 145, 149)
+- Nanime.to entfernt
+- Update episodes.py (sort)
+- Fix cfscrape Integration 
+- Fix Trakt Fortschritt
+- Fix sources.py
+- Fix Episodes.py (Löst das Serien abspiel Problem)
+- Textkorrekturen
+- URLResolver API Key neu erstellt
+- Update Update Manager: Reihenfolge geändert!
+  ( zuerst Update Infinity und dann Update Urlresolver - bei Auswahl "Beide")
+- Patch infinity.py
+  ERROR: CGUIMediaWindow::
+  GetDirectory(plugin://plugin.video.infinity/?action=devUpdateNavigator) failed)
+ - Gdrive - Serien Update
+ - Scraper für Private Ordner
+- Add Gdrive Scraper
+  
+[B]Infinity 1.0.4[/B]
+- Domain Kinox.si hinzugefügt
+- Alle Emby-Accounts werden nun als Premium-Links markiert
+- Offline Indexseiten entfernt: animebase, animeloads, foxx
+- Update Settings.xml
+- "source_utils.py" - neue Funktion "get_titles_for_search()"
+- Upgrade Provider AlleSerien / HDfilme
+- Fix Alleserien
+- Fix HdFilme
+- Fix streamking
+- Textanpassungen
+- "Alle Quellen auswählen/abwählen" im Menü implementiert
+- Nutzung Multipler Emby-Accounts
+- Allgemeine Arbeite an der settings.xml
+- Indexseiten Anpassung an das script.module.cfscraper:
+  cinenator, hd-streams-to, movietown, stream-to, streamworld
+- Update trakt.py (Fix gesehen Status bei Film/Serien Ende wird nicht gesetzt)
+- Update hdstreams.py
+
+[B]Infinity 1.0.3[/B]
+- Vorbereitung für script.module.cfscrape
+- Code-Bereinigung
+- Multiple Account für s.to:
+  Es können nun mehrere Account in den Einstellungen hinterlegt
+  werden. Sollte "Geschützter Link" auftreten, werden nun  Accounts für s.to zufällig und automatisch verwendet
+  Nach der Installation sollte der Cache gelöscht und das Gerät neugestartet werden
+- Update Manager aktualisiert
+  Das URLResolver Nightly Update wird jetzt von dem privaten streamxstream URLResolver Github bezogen
+  Somit haben xStream und Infinity wieder den gleichen Resolver Stand
+  Resolver Releases können über das xStream Repo bezogen werden, oder vom bekannten Downloadlink
+- [hd-streams.to] update hoster
+- [hd-streams.to] add hoster
+- [moviedream] fix Serien
+- [moviedream] fix hoster
+- [movietown] erweiterte Suche
+- Update source_utils.py check 'quality'
+- Update movietown.py + check 'quality'
+- neue cfscrape.py
+- Movietown.org hinzugefügt (movietown.py)
+- FAQ Update (Serienstream Konten)
+
+[B]Infinity 1.0.2[B]
+- Beide API Keys neu erstellt
+- Ergänzung Kategorie "Populär" bei Filmen
+- Update Domparser
+- Entfernung whatsnew.txt-Popup
+- ReCaptcha-Filter
+
+[B]Infinity 1.0.1[B]
+- Abhängigkeit Repository hinzugefügt
+- Icon überarbeitet (Hintergrund schwarz anstelle von grau)
+
+[B]Infinity 1.0.0[B]
+- Release Infinity
+- Neues Infinity Icon und Fanart
+- Neuer TMDB API Key
+- Neuer Trak.tv API Key
+- Neuer Plugin API Token Key
+- Infinity FAQ in der plugin.video.infinity ZIP enthalten
+- Sortierungsänderung
+  mit Debrid / ohne sub
+  ohne Debrid / ohne sub
+  mit Debrid / mit sub
+  ohne Debrid / mit sub
+

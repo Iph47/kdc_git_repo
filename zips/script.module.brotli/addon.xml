@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.brotli"
+       name="brotli"
+       version="1.0.7"
+       provider-name="Brotli">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python bindings for the Brotli compression library.</summary>
+    <description lang="en_GB">Packed for Kodi from https://github.com/google/brotli.</description>
+    <license>MIT</license>
+    <website>https://github.com/google/brotli</website>
+    <source>https://github.com/google/brotli</source>
+    <email>https://groups.google.com/forum/#!forum/brotli</email>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>

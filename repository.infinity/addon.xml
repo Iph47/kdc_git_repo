@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.infinity" name="Infinity Repository" version="1.0.0" provider-name="Infinity-Team">
+    <extension point="xbmc.addon.repository" name="Infinity Repository">
+        <info compressed="false">https://raw.github.com/42ona/infship/master/addons.xml</info>
+        <checksum>https://raw.github.com/42ona/infship/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/42ona/infship/master</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">Metadaten für Infinity Repository</summary>
+        <platform>all</platform>
+    </extension>
+</addon>

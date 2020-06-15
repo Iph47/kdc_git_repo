@@ -1,0 +1,60 @@
+﻿[B][COLOR yellow]Info:[/COLOR][/B]
+
+Bei Problemen hilft es oft die Caches (Infinity und Kodi) zu löschen.
+[B][COLOR blue]Allgemein:[/COLOR][/B]
+
+- Für die Seite Serienstream.to (s.to) ist ein Benutzerkonto erforderlich.
+  (Beachte den Hinweis zu "Geschützter Link" in den Einstellungen!)
+- Amazon, Netflix und Maxdome sind nur mit einem gültigen Abo des Betreibers nutzbar.
+- Bei einigen Indexseiten ist es möglich, Captcha in Infinity zu lösen.
+
+[B][COLOR red]Anleitungen und Funktionen in der FAQ (in der plugin.video.infinity.zip enthalten)[/COLOR][/B]
+
+[B]An alle User:[/B]
+Einige Indexseiten sind ohne Funktion
+Da wir zur Zeit kein Entwickler Team haben könnte das auch noch länger so bleiben
+
+Wir suchen daher Python Entwickler die am Project mitwirken wollen, diese sollen sich im Chat 
+melden oder fixes auf Github einreichen
+Bitte nicht jammern und lästern, es ändert nix
+
+[COLOR orange]_________________________________________________________________________[/COLOR]
+
+[B][COLOR lime]Changelog:[/COLOR][/B]
+
+[B]Infinity 1.1.2[/B]
+- Fix trailer.py
+
+[B]Infinity 1.1.1[/B]
+- Parser.py hinzugefügt (...\plugin.video.infinity\resources\lib)
+- Kinoger parsing teil hinzugefügt, sodass die Hoster secvideo und fvs wieder in 1080 funktionieren.
+
+[B]Infinity 1.0.9[/B]
+- Kinoger aus DEFEKT entfernt und wieder hinzugefügt
+- Vavoo hinzugefügt (benötigt aber Fix)
+- Settings wiederhergestellt (s.to-Mehrfach-Accounts)
+
+[B]Infinity 1.0.9~nightly1[/B]
+- Update netflix (Anpassung Castagnal Repo)
+
+[B]Infinity 1.0.8[/B]
+- UpdateManger gefixt (Danke an Kasi45 für die Source)
+- Auto Update Funktion bei Kodistart hinzugefügt
+- defekte Indexseiten Einträge entfernt
+  cinemaxx, iload, kinoger, movie4k, 
+- Kinox.one hinzugefügt
+- Fix HDFilme
+
+[B]Infinity 1.0.7[/B]
+- Neuer URLResolver API Key
+
+[B]Infinity 1.0.6[/B]
+- Update episodes.py (neuer TVDB-API Key)
+- Fix Serienstream
+- defekte/offline Seiten entfernt (proxer)
+- Neuer TMDB API Key (settings.xml und episodes.py)
+  Episodes.py verwendet den API Key von metadata.tvshows.themoviedb.org
+  Für den API Key in der settings.xml wurde ein neues Konto auf TMDB erstellt
+
+[COLOR orange]_________________________________________________________________________[/COLOR]
+Editierhinweise: Keine Tabulatoren. Text darf nicht länger als die Linie sein.
