@@ -30,7 +30,7 @@ script.module.hls.cache*https://github.com/KDC-Community/kdc_git_repo/raw/master
 plugin.video.live.streamspro*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/plugin.video.live.streamspro/plugin.video.live.streamspro-2.8.1.zip*LSPro.png
 plugin.video.f4mTester*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/plugin.video.f4mTester/plugin.video.f4mTester-2.7.1.zip*TesterF4M.png
 Joyn (knaerzche)*https://github.com/knaerzche/plugin.video.joyn/archive/master.zip*joyn_knaerzche.png
-Ctrl_Esc_TV*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/plugin.video.Ctrl_Esc_TV/plugin.video.Ctrl_Esc_TV-2019.10.10.zip*joyn_knaerzche.png
+Ctrl_Esc_TV*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/plugin.video.Ctrl_Esc_TV/plugin.video.Ctrl_Esc_TV-2019.10.10.zip*Ctrl_Esc_TV.png
 Infinity*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/plugin.video.infinity/plugin.video.infinity-1.1.2.zip*Infinity.png
 plugin.video.hdfilme.cc*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/plugin.video.hdfilme.cc/plugin.video.hdfilme.cc-1.2.2.zip*HD-Filme.png
 plugin.video.xcine.tv*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/plugin.video.xcine.tv/plugin.video.xcine.tv-1.2.0.zip*xcine.png
