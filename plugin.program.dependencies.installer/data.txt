@@ -15,6 +15,7 @@ script.module.metahandler*https://github.com/KDC-Community/kdc_git_repo/raw/mast
 script.module.mutagen*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.module.mutagen/script.module.mutagen-2019.10.10.zip*module.png
 script.module.routing*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.module.routing/script.module.routing-0.2.3.zip*module.png
 script.module.pycryptodome*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.module.pycryptodome/script.module.pycryptodome-3.4.1.zip*module.png
+script.module.cryptopy*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.module.cryptopy/script.module.cryptopy-1.2.6.zip*module.png
 script.infinity.artwork*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.infinity.artwork/script.infinity.artwork-1.0.1.zip*module.png
 repository.infinity*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/repository.infinity/repository.infinity-1.0.0.zip*module.png
 script.module.limitless-swiftstreamz*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.module.limitless-swiftstreamz/script.module.limitless-swiftstreamz-2.3.zip*limitless-swiftstreamz.png
