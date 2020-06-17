@@ -65,7 +65,7 @@
 <item>
 <title>[B][COLOR antiquewhite]===  SGK [COLOR darkred] Portal [COLOR antiquewhite]===[/COLOR][/B]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
-<externallink>http://sgkodi.de/SGK-Portal/portal.xml</externallink>
+<externallink>http://sgkodi.de/SGK-Portal/portal1.xml</externallink>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
 <info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
@@ -92,14 +92,14 @@
 <item>
 <title>[B][COLOR antiquewhite]===  Ghost [COLOR darkred] Portal [COLOR antiquewhite]===[/COLOR][/B]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
-<externallink>http://ghost-repo.de/Ghost_Portal/Ghost-Haupt/Ghost_TV.txt</externallink>
+<externallink>http://ghost-repo.de/Ghost_Portal/Ghost-Haupt/ghost.tv/Ghost_TV_haupt.txt</externallink>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
 <info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
 <item>
 <title>[B][COLOR antiquewhite]===  Ghost [COLOR darkred] Portal TV [COLOR antiquewhite]===[/COLOR][/B]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
-<externallink>http://ghost-repo.de/Ghost_Portal/Ghost_TV.txt</externallink>
+<externallink>http://ghost-repo.de/Ghost_Portal/Ghost-Haupt/ghost.tv/Ghost_TV_zum_Live.txt</externallink>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
 <info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
@@ -239,6 +239,15 @@
 
 
 <item>
+<title>[B][COLOR antiquewhite]=== [B][COLOR lime] TV 4 [COLOR lime] Free [COLOR antiquewhite]=== [/COLOR][/B]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<jsonrpc>plugin://script.module.tvforfree</jsonrpc>
+<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
+<info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
+
+<item>
 <title>[B][COLOR antiquewhite]=== [B][COLOR lime] Video Devil [COLOR lime] XXX 18+ [COLOR antiquewhite]===[/COLOR][/B]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
 <jsonrpc>plugin://script.module.7of9-videodevil</jsonrpc>
@@ -305,7 +314,7 @@
 <item>
 <title>[B][COLOR antiquewhite]===  Ghost [COLOR darkred] TV [COLOR antiquewhite]===[/COLOR][/B]<title>
 <link>http://ignorame<link><thumbnail>ext</thumbnail>
-<externallink>http://ghost-repo.de/Ghost_Portal/sky/ghostsiptv.txt</externallink>
+<externallink>http://ghost-repo.de/Ghost_Portal/sky/liveportal/___ghostsiptv.txt</externallink>
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
 <info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
@@ -385,6 +394,16 @@
 <fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
 <info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
 <item>
+
+
+<item>
+<title>[B][COLOR antiquewhite]===  NIMBUS [COLOR darkred] TV [COLOR antiquewhite]===[/B][/COLOR]<title>
+<link>http://ignorame<link><thumbnail>ext</thumbnail>
+<externallink>https://stream.nmbs.top/lists/Germany.m3u8</externallink>
+<fanart>https://i.imgur.com/5LelUfo.jpg</fanart>
+<info>[B][I][COLOR darkred] RaspberryPi KODI DEUTSCHLAND COMMUNITY [/B][/I][/COLOR]</info>
+<item>
+
 
 
 <item>
