@@ -18,7 +18,7 @@ script.module.pycryptodome*https://github.com/KDC-Community/kdc_git_repo/raw/mas
 script.infinity.artwork*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.infinity.artwork/script.infinity.artwork-1.0.1.zip*module.png
 repository.infinity*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/repository.infinity/repository.infinity-1.0.0.zip*module.png
 script.module.limitless-swiftstreamz*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.module.limitless-swiftstreamz/script.module.limitless-swiftstreamz-2.3.zip*module.png
-script.module.limitless-tvtap*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.module.limitless-tvtap/script.module.limitless-tvtap-2.0.zip*module
+script.module.limitless-tvtap*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.module.limitless-tvtap/script.module.limitless-tvtap-2.0.zip*module.png
 script.module.wvg*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.module.wvg/script.module.wvg-1.0.0.zip*module.png
 script.module.F4mProxy*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.video.F4mProxy/script.video.F4mProxy-2.8.7.zip*module.png
 script.module.parsedom*https://github.com/KDC-Community/kdc_git_repo/raw/master/zips/script.module.parsedom/script.module.parsedom-2.5.2.zip*module.png
