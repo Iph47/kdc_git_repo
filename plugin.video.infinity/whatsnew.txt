@@ -24,6 +24,7 @@ Bitte nicht jammern und lästern, es ändert nix
 
 [B]Infinity 1.1.2[/B]
 - Fix trailer.py
+- Fix episoden.py
 
 [B]Infinity 1.1.1[/B]
 - Parser.py hinzugefügt (...\plugin.video.infinity\resources\lib)

@@ -324,9 +324,9 @@ class seasons:
 
                 if thumb == '0': thumb = poster
 
-                self.list.append({'season_sort':int(season),'season': season, 'tvshowtitle': tvshowtitle, 'label': label, 'year': year, 'premiered': premiered, 'status': status, 'studio': studio, 'genre': genre, 'duration': duration, 'rating': rating, 'votes': votes, 'mpaa': mpaa, 'cast': cast, 'plot': plot, 'imdb': imdb, 'tvdb': tvdb, 'poster': poster, 'banner': banner, 'fanart': fanart, 'thumb': thumb, 'unaired': unaired})
-            except:pass
-        self.list.sort(key=lambda i:i.get('season_sort'),reverse=False)
+                self.list.append({'season': season, 'tvshowtitle': tvshowtitle, 'label': label, 'year': year, 'premiered': premiered, 'status': status, 'studio': studio, 'genre': genre, 'duration': duration, 'rating': rating, 'votes': votes, 'mpaa': mpaa, 'cast': cast, 'plot': plot, 'imdb': imdb, 'tvdb': tvdb, 'poster': poster, 'banner': banner, 'fanart': fanart, 'thumb': thumb, 'unaired': unaired})
+            except:
+                pass
 
         for item in episodes:
             try:
@@ -407,9 +407,11 @@ class seasons:
                 try: episodeplot = episodeplot.encode('utf-8')
                 except: pass
 
-                self.list.append({'title': title, 'label': label, 'season': season,'episode_sort': int(episode), 'episode': episode, 'tvshowtitle': tvshowtitle, 'year': year, 'premiered': premiered, 'status': status, 'studio': studio, 'genre': genre, 'duration': duration, 'rating': rating, 'votes': votes, 'mpaa': mpaa, 'director': director, 'writer': writer, 'cast': cast, 'plot': episodeplot, 'imdb': imdb, 'tvdb': tvdb, 'poster': poster, 'banner': banner, 'fanart': fanart, 'thumb': thumb, 'unaired': unaired})
-            except:pass
-        return sorted(self.list,key=lambda i:i.get('episode_sort'),reverse=False)
+                self.list.append({'title': title, 'label': label, 'season': season, 'episode': episode, 'tvshowtitle': tvshowtitle, 'year': year, 'premiered': premiered, 'status': status, 'studio': studio, 'genre': genre, 'duration': duration, 'rating': rating, 'votes': votes, 'mpaa': mpaa, 'director': director, 'writer': writer, 'cast': cast, 'plot': episodeplot, 'imdb': imdb, 'tvdb': tvdb, 'poster': poster, 'banner': banner, 'fanart': fanart, 'thumb': thumb, 'unaired': unaired})
+            except:
+                pass
+
+        return self.list
 
 
     def seasonDirectory(self, items):
@@ -540,6 +542,11 @@ class seasons:
                 meta.pop('tvdb', None)
                 meta.pop('tvdb_id', None)
                 meta.pop('unaired', None)
+                meta.pop('enum', None)
+                meta.pop('snum', None)
+                meta.pop('_last_watched', None)
+                meta.pop('_sort_key', None)
+                meta.pop('action', None)
                 
                 item.setInfo(type='Video', infoLabels = meta)
 
@@ -1581,6 +1588,11 @@ class episodes:
                 meta.pop('tvdb', None)
                 meta.pop('tvdb_id', None)
                 meta.pop('unaired', None)
+                meta.pop('enum', None)
+                meta.pop('snum', None)
+                meta.pop('_last_watched', None)
+                meta.pop('_sort_key', None)
+                meta.pop('action', None)
                 
                 item.setInfo(type='Video', infoLabels = meta)
 
